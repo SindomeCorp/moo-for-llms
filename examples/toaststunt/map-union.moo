@@ -1,7 +1,7 @@
 " title: map-union";
 " dialect: toaststunt";
 " source: approved-generic-sindome";
-" license: Used with permission from Sindome (https://www.sindome.org/)";
+"license: used-with-permission";
 " topic: maps";
 "callable: programmatic";
 " provenance: adapted from $map_utils:union";

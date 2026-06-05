@@ -15,8 +15,12 @@ This repo uses two compile checks:
 - High-risk release-hardening examples added on June 5, 2026: 4 of 4
   live-compiled on the scratch verb. This batch covered ToastStunt MAP/BOOL
   snippets and patch-specific XML parser snippets.
-- Full corpus live compile on June 5, 2026: 418 of 418 tracked `.moo`
+- v1.1 targeted expansion examples added on June 5, 2026: included in the full
+  corpus compile and runtime smoke-tested where self-contained.
+- Full corpus live compile on June 5, 2026: 446 of 446 tracked `.moo`
   examples compiled successfully. See `docs/live-compile-report.json`.
+- Runtime smoke tests on June 5, 2026: 5 of 5 opt-in examples executed
+  successfully. See `docs/runtime-smoke-tests.md`.
 
 ## Scratch Verb Shape
 

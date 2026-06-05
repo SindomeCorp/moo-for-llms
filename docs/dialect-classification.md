@@ -4,6 +4,11 @@ Use this decision tree when labeling examples, dataset rows, and eval cases.
 Label by what the code actually uses, not by what an equivalent implementation
 could use in another server or core.
 
+The current v1 corpus actively uses four dialect labels: `portable`,
+`toaststunt`, `core-specific`, and `patch-specific`. The schemas also reserve
+`lambdamoo` and `stunt` for future rows that depend specifically on behavior
+from those servers, but no current examples use those labels.
+
 ## Decision Tree
 
 1. If the code uses ToastStunt-only datatypes, map syntax, or ToastStunt-only
@@ -13,7 +18,9 @@ could use in another server or core.
 3. If the code uses Sindome-only builtins or core conventions, label it
    `core-specific`.
 4. If the code depends on LambdaMOO-only behavior, label it `lambdamoo`.
-5. If the code uses common MOO syntax, common LambdaMOO-family builtins, and
+5. If the code depends on Stunt-only behavior that is not stock LambdaMOO and
+   not ToastStunt-specific, label it `stunt`.
+6. If the code uses common MOO syntax, common LambdaMOO-family builtins, and
    ordinary core utility verbs, label it `portable`.
 
 ## Common Distinctions

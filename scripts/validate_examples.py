@@ -22,6 +22,7 @@ ALLOWED_DIALECTS = {"portable", "lambdamoo", "stunt", "toaststunt", "core-specif
 NON_PORTABLE_DIALECTS = {"stunt", "toaststunt", "core-specific", "patch-specific"}
 ALLOWED_SOURCES = {"original", "manual-summary", "curated-public", "approved-generic-sindome"}
 ALLOWED_CALLABLE = {"programmatic", "command", "fragment"}
+APPROVED_SINDOME_LICENSE = "used-with-permission"
 
 HEADER_RE = re.compile(r'^"\s*([a-z_]+):\s*(.*?)";\s*$')
 STRING_COMMENT_RE = re.compile(r'^\s*"')
@@ -130,6 +131,8 @@ def validate_metadata(path: Path, metadata: dict[str, str]) -> list[Problem]:
 
     if source != "original" and "provenance" not in metadata:
         problems.append(Problem(path, 1, "non-original examples must include `provenance`"))
+    if source == "approved-generic-sindome" and metadata.get("license") != APPROVED_SINDOME_LICENSE:
+        problems.append(Problem(path, 1, f"approved Sindome examples should use license `{APPROVED_SINDOME_LICENSE}`"))
 
     if dialect in NON_PORTABLE_DIALECTS and "dialect_reason" not in metadata:
         problems.append(Problem(path, 1, f"`{dialect}` examples must include `dialect_reason`"))

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "stable-partition-basic",
+    "path": "examples/lists/stable-partition.moo",
+    "eval": ";return me:llm_syntax_test({\"a\", \"b\", \"a\"}, {\"a\"});",
+    "expected_contains": ["a", "b"]
+  },
+  {
+    "id": "alist-increment-existing",
+    "path": "examples/lists/alist-increment-count.moo",
+    "eval": ";return me:llm_syntax_test({{\"x\", 1}}, \"x\");",
+    "expected_contains": ["x", "2"]
+  },
+  {
+    "id": "split-first-delimiter",
+    "path": "examples/strings/split-first-delimiter.moo",
+    "eval": ";return me:llm_syntax_test(\"left=right=tail\", \"=\");",
+    "expected_contains": ["left", "right=tail"]
+  },
+  {
+    "id": "windowed-slices",
+    "path": "examples/lists/windowed-slices.moo",
+    "eval": ";return me:llm_syntax_test({1, 2, 3}, 2);",
+    "expected_contains": ["1", "2", "3"]
+  },
+  {
+    "id": "error-rethrow-default",
+    "path": "examples/errors/error-rethrow-unexpected.moo",
+    "eval": ";return me:llm_syntax_test(me);",
+    "expected_contains": ["untitled"]
+  }
+]

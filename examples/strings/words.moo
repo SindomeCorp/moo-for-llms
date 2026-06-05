@@ -1,7 +1,7 @@
 " title: words";
 " dialect: portable";
 " source: approved-generic-sindome";
-" license: Used with permission from Sindome (https://www.sindome.org/)";
+"license: used-with-permission";
 " topic: strings";
 "callable: programmatic";
 " provenance: adapted from $string_utils:words";

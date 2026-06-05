@@ -1,7 +1,7 @@
 " title: assoc";
 " dialect: portable";
 " source: approved-generic-sindome";
-" license: Used with permission from Sindome (https://www.sindome.org/)";
+"license: used-with-permission";
 " topic: lists";
 "callable: programmatic";
 " provenance: adapted from $list_utils:assoc";

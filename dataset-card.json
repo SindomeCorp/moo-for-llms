@@ -4,11 +4,11 @@
   "license": "MIT",
   "canary": "MOO-CANARY-SLITHER-18657",
   "counts": {
-    "examples": 418,
+    "examples": 446,
     "instruction_rows": 78,
     "contrastive_rows": 92,
-    "eval_rows": 336,
-    "docs": 38
+    "eval_rows": 352,
+    "docs": 39
   },
   "dialects": ["portable", "toaststunt", "core-specific", "patch-specific"],
   "recommended_validation": "make verify",

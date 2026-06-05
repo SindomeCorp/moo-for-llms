@@ -46,6 +46,9 @@ datasets.
 See `docs/dataset-card.md` and `dataset-card.json` for release-oriented corpus
 metadata, known limitations, and recommended validation commands.
 
+See `docs/runtime-smoke-tests.md` for the optional live runtime smoke harness
+for self-contained examples.
+
 ## Validation
 
 ```bash
@@ -56,6 +59,12 @@ Full release verification:
 
 ```bash
 make verify
+```
+
+Optional runtime smoke tests require live MOO credentials:
+
+```bash
+python3 scripts/runtime_smoke_examples.py --env-file /path/to/moo.env
 ```
 
 ## Coverage

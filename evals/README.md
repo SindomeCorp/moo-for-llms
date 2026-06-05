@@ -26,8 +26,14 @@ Do not include eval rows in normal training exports. The split exporter
 Score model outputs in a lightweight review pass with:
 
 ```bash
-python3 scripts/score_eval_outputs.py model-outputs.jsonl --output tmp/eval-score-report.json
+python3 scripts/score_eval_outputs.py model-outputs.jsonl \
+  --output tmp/eval-score-report.json \
+  --markdown-output tmp/eval-score-report.md \
+  --require-dialect-label
 ```
 
-The scorer checks expected strings and expected-property phrases. It is a triage
-tool, not a replacement for human review of generated MOO.
+The scorer checks expected strings, expected-property phrases, empty outputs,
+and optional non-portable dialect labels. It reports failure categories so a
+reviewer can separate missing code shape, missing dialect classification, and
+missing outputs. It is a triage tool, not a replacement for human review or
+live compilation of generated MOO.

@@ -1,7 +1,7 @@
 " title: match-if";
 " dialect: portable";
 " source: approved-generic-sindome";
-" license: Used with permission from Sindome (https://www.sindome.org/)";
+"license: used-with-permission";
 " topic: code-scanner";
 "callable: programmatic";
 " provenance: adapted from $code_scanner:match_if";

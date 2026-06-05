@@ -1,38 +1,40 @@
-# Future Release Steps
+# Release Steps
 
-This repo has a pushed `v1.0.0` annotated git tag. The only release step that
-was not completed from this environment was creating the GitHub Release page,
-because no GitHub CLI or API token was available.
-
-## Create The GitHub Release Page
-
-Use the GitHub web UI:
-
-1. Go to `https://github.com/SindomeCorp/moo-for-llms/releases/new`.
-2. Choose tag `v1.0.0`.
-3. Set release title to `MOO for LLMs v1.0.0`.
-4. Use release notes like:
+This repo has pushed annotated git tags for `v1.0.0` and `v1.0.1`. The
+`v1.0.1` GitHub Release page was created after `gh` was installed and
+authenticated:
 
 ```text
-Initial validated public seed corpus for MOO training and evaluation.
+https://github.com/SindomeCorp/moo-for-llms/releases/tag/v1.0.1
+```
 
-- 418 live-compiled MOO examples
-- 78 instruction rows
-- 92 contrastive rows
-- 336 eval rows
-- 37 docs
+## Create A Future GitHub Release Page
+
+After committing, pushing, and confirming CI for a future release, create an
+annotated tag and publish a release. For example:
+
+```bash
+git tag -a v1.1.0 -m "MOO for LLMs v1.1.0"
+git push origin v1.1.0
+gh release create v1.1.0 \
+  --repo SindomeCorp/moo-for-llms \
+  --title "MOO for LLMs v1.1.0" \
+  --notes-file tmp/release-notes-v1.1.0.md
+```
+
+Use release notes shaped like:
+
+```text
+Validated public MOO training and evaluation corpus update.
+
+- <N> live-compiled MOO examples
+- <N> instruction rows
+- <N> contrastive rows
+- <N> eval rows
+- <N> docs
 - 0 training-quality warnings
 - 0 exact duplicate clusters
 - CI validation green
-```
-
-If `gh` is installed and authenticated, this command can create the release:
-
-```bash
-gh release create v1.0.0 \
-  --repo SindomeCorp/moo-for-llms \
-  --title "MOO for LLMs v1.0.0" \
-  --notes-file docs/future-release-steps.md
 ```
 
 ## Repeat Full Local Verification
@@ -46,10 +48,7 @@ make clean-generated
 
 Expected current results:
 
-- `418` examples
-- `78` instruction rows
-- `92` contrastive rows
-- `336` eval rows
+- current counts from `docs/coverage-report.md`
 - `0` training-quality warnings
 - `0` exact duplicate clusters
 

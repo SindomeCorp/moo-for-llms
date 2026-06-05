@@ -6,8 +6,9 @@ Prefer small, well-labeled examples over large dumps of production code.
 ## Rules
 
 - Use MIT-compatible original content whenever possible.
-- Mark dialect as `portable`, `lambdamoo`, `stunt`, `toaststunt`, or
-  `core-specific`.
+- Mark dialect as `portable`, `toaststunt`, `core-specific`, or
+  `patch-specific`. The schemas reserve `lambdamoo` and `stunt` for future
+  server-specific examples, but the current corpus does not use those labels.
 - Include provenance for every example and dataset row.
 - Do not add private game code unless it has been reviewed and approved for
   public release.

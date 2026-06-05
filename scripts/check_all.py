@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 COMMANDS = (
+    ("Compile Python scripts", [sys.executable, "-m", "py_compile", *[str(path) for path in sorted((ROOT / "scripts").glob("*.py"))]]),
     ("Build example index", [sys.executable, "scripts/build_example_index.py"]),
     ("Validate examples", [sys.executable, "scripts/validate_examples.py"]),
     ("Validate JSONL", [sys.executable, "scripts/validate_jsonl.py"]),

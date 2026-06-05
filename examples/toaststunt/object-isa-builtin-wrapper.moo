@@ -1,7 +1,7 @@
 " title: object-isa-builtin-wrapper";
 " dialect: toaststunt";
 " source: approved-generic-sindome";
-" license: Used with permission from Sindome (https://www.sindome.org/)";
+"license: used-with-permission";
 " topic: objects";
 "callable: programmatic";
 " provenance: adapted from $object_utils:isa";

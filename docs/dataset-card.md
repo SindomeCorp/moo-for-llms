@@ -9,11 +9,11 @@ patch-specific builtins.
 
 Current generated report counts:
 
-- Examples: 418
+- Examples: 446
 - Instruction rows: 78
 - Contrastive rows: 92
-- Eval rows: 336
-- Docs: 38
+- Eval rows: 352
+- Docs: 39
 
 Regenerate counts with:
 
@@ -73,7 +73,8 @@ python3 scripts/export_training_corpus.py \
 - Utility-package examples are currently the largest topic family.
 - Some examples are fragments designed to teach metadata, dialect, or style
   rules rather than full runnable verbs.
-- Live compile status is partial; see `docs/compile-status.md`.
+- Full release live compile completed successfully for all tracked examples;
+  see `docs/compile-status.md`.
 
 ## Canary
 
