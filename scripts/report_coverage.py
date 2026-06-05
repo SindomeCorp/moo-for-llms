@@ -28,6 +28,7 @@ DOC_STEMS_WITHOUT_EXAMPLE_TOPICS = {
     "duplicate-example-report",
     "duplicate-policy",
     "eval-coverage-report",
+    "future-release-steps",
     "generated-expansion-quality-review",
     "near-family-duplicate-review",
     "roadmap",
