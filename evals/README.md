@@ -22,3 +22,12 @@ python3 scripts/report_eval_coverage.py --kind codegen --prompts-output tmp/eval
 
 Do not include eval rows in normal training exports. The split exporter
 `scripts/export_train_eval_split.py` intentionally excludes `evals/**/*.jsonl`.
+
+Score model outputs in a lightweight review pass with:
+
+```bash
+python3 scripts/score_eval_outputs.py model-outputs.jsonl --output tmp/eval-score-report.json
+```
+
+The scorer checks expected strings and expected-property phrases. It is a triage
+tool, not a replacement for human review of generated MOO.

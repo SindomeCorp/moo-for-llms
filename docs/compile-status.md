@@ -15,6 +15,8 @@ This repo uses two compile checks:
 - High-risk release-hardening examples added on June 5, 2026: 4 of 4
   live-compiled on the scratch verb. This batch covered ToastStunt MAP/BOOL
   snippets and patch-specific XML parser snippets.
+- Full corpus live compile on June 5, 2026: 418 of 418 tracked `.moo`
+  examples compiled successfully. See `docs/live-compile-report.json`.
 
 ## Scratch Verb Shape
 
@@ -35,3 +37,11 @@ When adding new `.moo` examples, run local validation first. For examples that
 exercise uncommon syntax, ToastStunt-specific syntax, or adapted live verbs,
 also compile them against a scratch verb and update this document with the
 batch result.
+
+To compile the full corpus against a live MOO:
+
+```bash
+python3 scripts/live_compile_examples.py \
+  --env-file /path/to/moo.env \
+  --output docs/live-compile-report.json
+```

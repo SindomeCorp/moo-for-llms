@@ -1,0 +1,4310 @@
+{
+  "argspec": "this none this",
+  "failed": 0,
+  "finished_at": "2026-06-05T18:00:36Z",
+  "ok": 418,
+  "perms": "rxd",
+  "results": [
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "6  ~ \"topic: command-parsercallable: fragment\";",
+        "9  - \"args: command parser variables\";",
+        "11 - \"notes: Shows a real builder command using dobjstr/iobjstr matching and player-facing permission errors.\";",
+        "0 errors."
+      ],
+      "index": 1,
+      "ok": true,
+      "path": "examples/algorithm-patterns/algorithm-selection-notes.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 2,
+      "ok": true,
+      "path": "examples/algorithm-patterns/dispatcher-filter-candidates-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 3,
+      "ok": true,
+      "path": "examples/algorithm-patterns/dispatcher-prune-expired-gates-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 4,
+      "ok": true,
+      "path": "examples/algorithm-patterns/dispatcher-select-shortest-paths-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 5,
+      "ok": true,
+      "path": "examples/algorithm-patterns/dispatcher-temporary-gate-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 6,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-bounded-recursive-reverse-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 7 unchanged)",
+        "0 errors."
+      ],
+      "index": 7,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-compress-runs-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 8,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-extreme-by-length-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 9,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-insertion-sort-permutation-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 10,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-merge-sort-alist-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 11,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-queue-ops-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 12,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-quicksort-property-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 13,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-recursive-flatten-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 14,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-stack-ops-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 15,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-suspended-flatten-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 16,
+      "ok": true,
+      "path": "examples/algorithm-patterns/list-suspended-insertion-sort-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 17,
+      "ok": true,
+      "path": "examples/algorithm-patterns/math-base-conversion-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 18,
+      "ok": true,
+      "path": "examples/algorithm-patterns/math-factorial-iterative-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 15 unchanged)",
+        "0 errors."
+      ],
+      "index": 19,
+      "ok": true,
+      "path": "examples/algorithm-patterns/math-fibonacci-sequence-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 20,
+      "ok": true,
+      "path": "examples/algorithm-patterns/math-gcd-euclidean-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 21,
+      "ok": true,
+      "path": "examples/algorithm-patterns/object-branches-splice-frontier-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 7 unchanged)",
+        "0 errors."
+      ],
+      "index": 22,
+      "ok": true,
+      "path": "examples/algorithm-patterns/object-descendants-breadth-first-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 23,
+      "ok": true,
+      "path": "examples/algorithm-patterns/object-descendants-with-property-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 24,
+      "ok": true,
+      "path": "examples/algorithm-patterns/object-leaves-splice-frontier-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 25,
+      "ok": true,
+      "path": "examples/algorithm-patterns/scheduler-duplicate-guard-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 26,
+      "ok": true,
+      "path": "examples/algorithm-patterns/scheduler-next-runtime-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 27,
+      "ok": true,
+      "path": "examples/algorithm-patterns/scheduler-remove-from-queues-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 28,
+      "ok": true,
+      "path": "examples/algorithm-patterns/scheduler-repeat-spec-validation-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 29,
+      "ok": true,
+      "path": "examples/algorithm-patterns/spatial-breadth-first-frontier.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 30,
+      "ok": true,
+      "path": "examples/algorithm-patterns/spatial-depth-first-near-path-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 19 unchanged)",
+        "0 errors."
+      ],
+      "index": 31,
+      "ok": true,
+      "path": "examples/algorithm-patterns/spatial-depth-first-waypoint-pruning-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 32,
+      "ok": true,
+      "path": "examples/algorithm-patterns/spatial-neighbor-coordinate-scan-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 33,
+      "ok": true,
+      "path": "examples/algorithm-patterns/spatial-remove-opposite-steps-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 34,
+      "ok": true,
+      "path": "examples/algorithm-patterns/spatial-validate-cached-path-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 35,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-columnize-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 + \"Called by parsers that need empty fields instead of dropping them.\";",
+        "0 errors."
+      ],
+      "index": 36,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-explode-preserve-empty-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 - \"Called by parsers that need empty fields instead of dropping them.\";",
+        "0 errors."
+      ],
+      "index": 37,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-index-delimited-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 38,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-parallel-substitute-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 + \"Called by command parsers to resolve abbreviated words.\";",
+        "0 errors."
+      ],
+      "index": 39,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-prefix-match-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 - \"Called by command parsers to resolve abbreviated words.\";",
+        "0 errors."
+      ],
+      "index": 40,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-progress-bar-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 41,
+      "ok": true,
+      "path": "examples/algorithm-patterns/string-sentence-segmenter-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 42,
+      "ok": true,
+      "path": "examples/code-scanner/limit-nesting-guards.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 43,
+      "ok": true,
+      "path": "examples/code-scanner/match-comment-line-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 44,
+      "ok": true,
+      "path": "examples/code-scanner/match-if.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 45,
+      "ok": true,
+      "path": "examples/code-scanner/match-recycler-valid-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 7 unchanged)",
+        "0 errors.",
+        "Warning on line 10: tostr usage found inside a :tell call. This is undeeded as :tell will call tostr on all it's args.",
+        "Warning on line 12: tostr usage found inside a :tell call. This is undeeded as :tell will call tostr on all it's args.",
+        "Warning on line 14: tostr usage found inside a :tell call. This is undeeded as :tell will call tostr on all it's args."
+      ],
+      "index": 46,
+      "ok": true,
+      "path": "examples/code-scanner/match-tell-tostr-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 47,
+      "ok": true,
+      "path": "examples/code-scanner/no-assignment-condition.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \"topic: code-scann topic: command-parser\";",
+        "0 errors."
+      ],
+      "index": 48,
+      "ok": true,
+      "path": "examples/command-parser/basic-command-verb.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \" topic: command-parser\";",
+        "0 errors."
+      ],
+      "index": 49,
+      "ok": true,
+      "path": "examples/command-parser/command-args-words.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \" topic: command-parser\";",
+        "8  ~ if (!args)\"args: parser variables\";",
+        "10 + \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 + \"Called by a player command using parser variables; demonstrates argspec any none none.\";",
+        "0 errors."
+      ],
+      "index": 50,
+      "ok": true,
+      "path": "examples/command-parser/cp-ambiguous-text-fallback.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any none noneany any.\";",
+        "0 errors."
+      ],
+      "index": 51,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-any-page.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12   \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 52,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-any-say.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any any anynone none.\";",
+        "0 errors."
+      ],
+      "index": 53,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-none-search.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any none noneat this.\";",
+        "0 errors."
+      ],
+      "index": 54,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-prep-at.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any atin this.\";",
+        "0 errors."
+      ],
+      "index": 55,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-prep-in.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any ion this.\";",
+        "0 errors."
+      ],
+      "index": 56,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-prep-on.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any on thisto any.\";",
+        "0 errors."
+      ],
+      "index": 57,
+      "ok": true,
+      "path": "examples/command-parser/cp-any-prep-to.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any toany any.\";",
+        "0 errors."
+      ],
+      "index": 58,
+      "ok": true,
+      "path": "examples/command-parser/cp-args-word-count.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12   \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 59,
+      "ok": true,
+      "path": "examples/command-parser/cp-argstr-preserve-spaces.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "6    \"topic: command-parser\";",
+        "9  ~ \"args: command parser variables\";",
+        "10 - \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "11 + \"notes: Shows a real builder command using dobjstr/iobjstr matching and player-facing permission errors.\";",
+        "12 - \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 60,
+      "ok": true,
+      "path": "examples/command-parser/cp-chparent-any-to-any-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8  ~ \"args: command parser variables\";",
+        "11 - \"notes: Shows a real builder command using dobjstr/iobjstr matching and player-facing permission errors.\";",
+        "10 + \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 + \"Called by a player command using parser variables; demonstrates argspec any none none.\";",
+        "0 errors."
+      ],
+      "index": 61,
+      "ok": true,
+      "path": "examples/command-parser/cp-command-object-match.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10 - \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 - \"Called by a player command using parser variables; demonstrates argspec any none none.\";",
+        "0 errors."
+      ],
+      "index": 62,
+      "ok": true,
+      "path": "examples/command-parser/cp-command-this-with-any.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10 + \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 + \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 63,
+      "ok": true,
+      "path": "examples/command-parser/cp-command-verb-var.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "6    \"topic: command-parser\";",
+        "9  ~ \"args: command parser variables\";",
+        "10 - \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 - \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 64,
+      "ok": true,
+      "path": "examples/command-parser/cp-create-named-child-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8  ~ \"args: command parser variables\";",
+        "10 + \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 + \"Called by a player command using parser variables; demonstrates argspec any on this.\";",
+        "0 errors."
+      ],
+      "index": 65,
+      "ok": true,
+      "path": "examples/command-parser/cp-dobj-this-use.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any on thisany any.\";",
+        "0 errors."
+      ],
+      "index": 66,
+      "ok": true,
+      "path": "examples/command-parser/cp-dobjstr-label.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any any anynone none.\";",
+        "0 errors."
+      ],
+      "index": 67,
+      "ok": true,
+      "path": "examples/command-parser/cp-invalid-dobj-fallback.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any none noneinto this.\";",
+        "0 errors."
+      ],
+      "index": 68,
+      "ok": true,
+      "path": "examples/command-parser/cp-iobj-this-command.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any intoon this.\";",
+        "0 errors."
+      ],
+      "index": 69,
+      "ok": true,
+      "path": "examples/command-parser/cp-iobjstr-note.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10 - \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 - \"Called by a player command using parser variables; demonstrates argspec any on this.\";",
+        "0 errors."
+      ],
+      "index": 70,
+      "ok": true,
+      "path": "examples/command-parser/cp-look-directly-at-any.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10 + \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 + \"Called by a player command using parser variables; demonstrates argspec none none none.\";",
+        "0 errors."
+      ],
+      "index": 71,
+      "ok": true,
+      "path": "examples/command-parser/cp-no-args-command.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12   \"Called by a player command using parser variables; demonstrates argspec none none none.\";",
+        "0 errors."
+      ],
+      "index": 72,
+      "ok": true,
+      "path": "examples/command-parser/cp-none-none-status.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12   \"Called by a player command using parser variables; demonstrates argspec none none none.\";",
+        "0 errors."
+      ],
+      "index": 73,
+      "ok": true,
+      "path": "examples/command-parser/cp-none-none-toggle.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec none none noneat any.\";",
+        "0 errors."
+      ],
+      "index": 74,
+      "ok": true,
+      "path": "examples/command-parser/cp-none-prep-at-text.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec none atto any.\";",
+        "0 errors."
+      ],
+      "index": 75,
+      "ok": true,
+      "path": "examples/command-parser/cp-none-prep-to.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec none toany any any.\";",
+        "0 errors."
+      ],
+      "index": 76,
+      "ok": true,
+      "path": "examples/command-parser/cp-prep-branch-open.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any anyfrom any.\";",
+        "0 errors."
+      ],
+      "index": 77,
+      "ok": true,
+      "path": "examples/command-parser/cp-preposition-list-note.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any fromwith any.\";",
+        "0 errors."
+      ],
+      "index": 78,
+      "ok": true,
+      "path": "examples/command-parser/cp-prepstr-required.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10 - \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 - \"Called by a player command using parser variables; demonstrates argspec any with any.\";",
+        "0 errors."
+      ],
+      "index": 79,
+      "ok": true,
+      "path": "examples/command-parser/cp-put-any-in-any.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10 + \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 + \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 80,
+      "ok": true,
+      "path": "examples/command-parser/cp-quoted-words.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12   \"Called by a player command using parser variables; demonstrates argspec any any any.\";",
+        "0 errors."
+      ],
+      "index": 81,
+      "ok": true,
+      "path": "examples/command-parser/cp-raw-arg-command.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec any anythis into any.\";",
+        "0 errors."
+      ],
+      "index": 82,
+      "ok": true,
+      "path": "examples/command-parser/cp-this-iobj-command.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec this into anynone none.\";",
+        "0 errors."
+      ],
+      "index": 83,
+      "ok": true,
+      "path": "examples/command-parser/cp-this-none-polish.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: command-parser\";",
+        "8    \"args: parser variables\";",
+        "10   \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 ~ \"Called by a player command using parser variables; demonstrates argspec this none noneto any.\";",
+        "0 errors."
+      ],
+      "index": 84,
+      "ok": true,
+      "path": "examples/command-parser/cp-this-prep-to.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \" topic: command-parser\";",
+        "8  - \"args: parser variables\";",
+        "10 - \"notes: Command parser example using dobj/iobj text and player-facing failure flow.\";",
+        "12 - \"Called by a player command using parser variables; demonstrates argspec this to any.\";",
+        "0 errors."
+      ],
+      "index": 85,
+      "ok": true,
+      "path": "examples/command-parser/direct-indirect-command.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \" topic: command-parser\";",
+        "0 errors."
+      ],
+      "index": 86,
+      "ok": true,
+      "path": "examples/command-parser/direct-object-command.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \" topic: command-parser\";",
+        "0 errors."
+      ],
+      "index": 87,
+      "ok": true,
+      "path": "examples/command-parser/echo-argstr.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  - \" topic: command-parser\";",
+        "6  + \"topic: command-parser\";",
+        "0 errors."
+      ],
+      "index": 88,
+      "ok": true,
+      "path": "examples/command-parser/object-match-feedback-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: object-match-feedbackparse-argspec-adapted\";",
+        "4  + \"provenance: Adapted from $code_utils:parse_argspec with permission from Sindome (www.sindome.org); VMS history removed.\";",
+        "6    \"topic: command-parser\";",
+        "11 + \":parse_argspec(@STR words) => LIST|STR\";",
+        "12 + \"Called by code utilities that parse LambdaCore-style verb argspec text.\";",
+        "0 errors."
+      ],
+      "index": 89,
+      "ok": true,
+      "path": "examples/command-parser/parse-argspec-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \"title: parse-argspec-adapted\";",
+        "4  - \"provenance: Adapted from $code_utils:parse_argspec with permission from Sindome (www.sindome.org); VMS history removed.\";",
+        "5  + \" topic: command-parser\";",
+        "6  - \"topic: command-parser\";",
+        "11 - \":parse_argspec(@STR words) => LIST|STR\";",
+        "12 - \"Called by code utilities that parse LambdaCore-style verb argspec text.\";",
+        "0 errors."
+      ],
+      "index": 90,
+      "ok": true,
+      "path": "examples/command-parser/preposition-branch.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \" topic: command-parserlicense: MIT\";",
+        "0 errors."
+      ],
+      "index": 91,
+      "ok": true,
+      "path": "examples/common-mistakes/explicit-container-type.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  + \" @program and @list are common LambdaCore-style command verbs, not language syntax.\";",
+        "0 errors."
+      ],
+      "index": 92,
+      "ok": true,
+      "path": "examples/core-commands/programming-flow-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  - \" @program and @list are common LambdaCore-style command verbs, not language syntax.\";",
+        "0 errors."
+      ],
+      "index": 93,
+      "ok": true,
+      "path": "examples/core-specific/sindome/sql-query.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 94,
+      "ok": true,
+      "path": "examples/core-utilities/command-utils-yield.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 95,
+      "ok": true,
+      "path": "examples/core-utilities/list-utils-slice.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 96,
+      "ok": true,
+      "path": "examples/core-utilities/object-utils-isa.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 97,
+      "ok": true,
+      "path": "examples/core-utilities/string-utils-trim.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 98,
+      "ok": true,
+      "path": "examples/core-utilities/toaststunt-builtin-isa.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 99,
+      "ok": true,
+      "path": "examples/core-utilities/toaststunt-builtin-slice.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 + \"notes: Shows why square-bracket map syntax should be labeled ToastStunt-specific.\";",
+        "12 + \"Called by dialect examples to demonstrate ToastStunt map syntax.\";",
+        "0 errors."
+      ],
+      "index": 100,
+      "ok": true,
+      "path": "examples/dialect-classification/map-vs-list-labeling.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  + \"title: error-handling-guidance\";",
+        "7  + \"notes: Preserved guidance comments for training data about error handling conventions.\";",
+        "10 - \"notes: Shows why square-bracket map syntax should be labeled ToastStunt-specific.\";",
+        "9  + \" Programmatic helpers should return or raise errors in a way the caller can consume.\";",
+        "10 + \" Inline error expressions should catch expected errors instead of using broad ANY catches.\";",
+        "12 - \"Called by dialect examples to demonstrate ToastStunt map syntax.\";",
+        "12 + return \"Match error handling to the verb's call mode.\";",
+        "0 errors."
+      ],
+      "index": 101,
+      "ok": true,
+      "path": "examples/error-handling/error-handling-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \"title: error-handling-guidance\";",
+        "1  + \" title: api-raise-error\";",
+        "5  ~ \"topic: error-handling topic: errors\";",
+        "7  - \"notes: Preserved guidance comments for training data about error handling conventions.\";",
+        "9  - \" Programmatic helpers should return or raise errors in a way the caller can consume.\";",
+        "10 - \" Inline error expressions should catch expected errors instead of using broad ANY catches.\";",
+        "12 - return \"Match error handling to the verb's call mode.\";",
+        "0 errors."
+      ],
+      "index": 102,
+      "ok": true,
+      "path": "examples/errors/api-raise-error.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \" title: api-raiseeturn-error\";",
+        "... (new line 4 unchanged)",
+        "5    \" topic: errors\";",
+        "0 errors."
+      ],
+      "index": 103,
+      "ok": true,
+      "path": "examples/errors/api-return-error.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \" topic: errors\";",
+        "0 errors."
+      ],
+      "index": 104,
+      "ok": true,
+      "path": "examples/errors/command-feedback-return.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \" topic: errors\";",
+        "8  + \"Called by parsers to convert text; catches only conversion errors and preserves invalid positive values.\";",
+        "0 errors."
+      ],
+      "index": 105,
+      "ok": true,
+      "path": "examples/errors/inline-catch-specific.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \" topic: errors\";",
+        "8  - \"Called by parsers to convert text; catches only conversion errors and preserves invalid positive values.\";",
+        "0 errors."
+      ],
+      "index": 106,
+      "ok": true,
+      "path": "examples/errors/narrow-property-catch.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: errors\";",
+        "0 errors."
+      ],
+      "index": 107,
+      "ok": true,
+      "path": "examples/errors/raise-with-message.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: errors\";",
+        "9  + \"notes: Shows normalizing input with a specific inline error catch instead of catching ANY.\";",
+        "11 + \"Called by parsers to convert optional numeric text with a caller-provided fallback.\";",
+        "0 errors."
+      ],
+      "index": 108,
+      "ok": true,
+      "path": "examples/errors/specific-catch-normalize.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: errors\";",
+        "9  - \"notes: Shows normalizing input with a specific inline error catch instead of catching ANY.\";",
+        "11 - \"Called by parsers to convert optional numeric text with a caller-provided fallback.\";",
+        "0 errors."
+      ],
+      "index": 109,
+      "ok": true,
+      "path": "examples/errors/structured-result-return.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \" topic: errors\";",
+        "8  + \"Called by other verbs; returns {1, value} on success or {0, error} on failure.\";",
+        "0 errors."
+      ],
+      "index": 110,
+      "ok": true,
+      "path": "examples/errors/structured-result.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  - \" topic: errors\";",
+        "6  ~ \" callable: programmatictopic: errors\";",
+        "8  - \"Called by other verbs; returns {1, value} on success or {0, error} on failure.\";",
+        "10 + \"notes: Shows converting either an error index or an error-name string into an ERR value.\";",
+        "12 + \"Called by code utilities that accept either E_FOO names or numeric error positions.\";",
+        "0 errors."
+      ],
+      "index": 111,
+      "ok": true,
+      "path": "examples/errors/toerr-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: errors\";",
+        "10 - \"notes: Shows converting either an error index or an error-name string into an ERR value.\";",
+        "9  + \"notes: Shows cleanup after try/except by placing cleanup after the error-handled block.\";",
+        "12 - \"Called by code utilities that accept either E_FOO names or numeric error positions.\";",
+        "16 + except error (E_INVARG, E_PERM)",
+        "18 +   return error[1];",
+        "0 errors."
+      ],
+      "index": 112,
+      "ok": true,
+      "path": "examples/errors/try-finally-style-cleanup.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  - \"notes: Shows cleanup after try/except by placing cleanup after the error-handled block.\";",
+        "16 - except error (E_INVARG, E_PERM)",
+        "18 -   return error[1];",
+        "0 errors."
+      ],
+      "index": 113,
+      "ok": true,
+      "path": "examples/good-moo-code/programmatic-contract.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 114,
+      "ok": true,
+      "path": "examples/lambdamoo-builtins/lambdamoo-builtins-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 + \" Command parser variables such as dobj and iobj depend on the verb argspec and user input.\";",
+        "0 errors."
+      ],
+      "index": 115,
+      "ok": true,
+      "path": "examples/language-guide/runtime-values-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 - \" Command parser variables such as dobj and iobj depend on the verb argspec and user input.\";",
+        "0 errors."
+      ],
+      "index": 116,
+      "ok": true,
+      "path": "examples/lists/append-lists.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 117,
+      "ok": true,
+      "path": "examples/lists/assoc-default-value.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 + \"notes: Shows alist lookup with optional index and specific inline error handling for malformed rows.\";",
+        "0 errors."
+      ],
+      "index": 118,
+      "ok": true,
+      "path": "examples/lists/assoc-index-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 - \"notes: Shows alist lookup with optional index and specific inline error handling for malformed rows.\";",
+        "0 errors."
+      ],
+      "index": 119,
+      "ok": true,
+      "path": "examples/lists/assoc.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 120,
+      "ok": true,
+      "path": "examples/lists/first-or-last.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 121,
+      "ok": true,
+      "path": "examples/lists/flatten.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 122,
+      "ok": true,
+      "path": "examples/lists/push-stack.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 + \"Called by parsers to remove all occurrences of a filler value from a list.\";",
+        "0 errors."
+      ],
+      "index": 123,
+      "ok": true,
+      "path": "examples/lists/remove-all-values-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 - \"Called by parsers to remove all occurrences of a filler value from a list.\";",
+        "0 errors."
+      ],
+      "index": 124,
+      "ok": true,
+      "path": "examples/lists/remove-duplicates.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 125,
+      "ok": true,
+      "path": "examples/lists/stable-unique-values.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 126,
+      "ok": true,
+      "path": "examples/lists/sum.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 127,
+      "ok": true,
+      "path": "examples/loops/binary-search-insert-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 128,
+      "ok": true,
+      "path": "examples/loops/break-on-first-match.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 129,
+      "ok": true,
+      "path": "examples/loops/continue-filter-output.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 130,
+      "ok": true,
+      "path": "examples/loops/count-membership-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 131,
+      "ok": true,
+      "path": "examples/loops/for-range-step.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 132,
+      "ok": true,
+      "path": "examples/loops/guarded-list-loop.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 133,
+      "ok": true,
+      "path": "examples/loops/make-list-doubling-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "8  ~ \"args: INT count, ?MIXED valueparser variables\";",
+        "24 +     syntax = verb_args(object, index);",
+        "30 +     {dobj, prep, iobj} = syntax;",
+        "0 errors."
+      ],
+      "index": 134,
+      "ok": true,
+      "path": "examples/loops/nested-continue-command-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "7  ~ \"args: parser variablesINT stop\";",
+        "24 -     syntax = verb_args(object, index);",
+        "30 -     {dobj, prep, iobj} = syntax;",
+        "0 errors."
+      ],
+      "index": 135,
+      "ok": true,
+      "path": "examples/loops/numeric-step-loop.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 136,
+      "ok": true,
+      "path": "examples/loops/replace-all-splice-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 137,
+      "ok": true,
+      "path": "examples/loops/while-consume-list.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 138,
+      "ok": true,
+      "path": "examples/loops/while-splice-remove.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  + \"notes: Shows create(parent, caller_perms()) with explicit permission and quota error handling.\";",
+        "0 errors."
+      ],
+      "index": 139,
+      "ok": true,
+      "path": "examples/object-lifecycle/create-child-owned.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "9  - \"notes: Shows create(parent, caller_perms()) with explicit permission and quota error handling.\";",
+        "0 errors."
+      ],
+      "index": 140,
+      "ok": true,
+      "path": "examples/object-lifecycle/move-revalidate-after-suspend.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 141,
+      "ok": true,
+      "path": "examples/object-lifecycle/protected-chparent-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 142,
+      "ok": true,
+      "path": "examples/object-lifecycle/protected-recycle-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 143,
+      "ok": true,
+      "path": "examples/object-lifecycle/recycler-recycle-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 144,
+      "ok": true,
+      "path": "examples/object-lifecycle/recycler-valid-guard.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 145,
+      "ok": true,
+      "path": "examples/object-lifecycle/toaststunt-recreate-basic.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 146,
+      "ok": true,
+      "path": "examples/objects/contains.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 147,
+      "ok": true,
+      "path": "examples/objects/create-owned-child.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 148,
+      "ok": true,
+      "path": "examples/objects/has-callable-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "8  + \"Syntax:  has_property(OBJ, STR) => INT 0|1\";",
+        "0 errors."
+      ],
+      "index": 149,
+      "ok": true,
+      "path": "examples/objects/has-property.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "8  - \"Syntax:  has_property(OBJ, STR) => INT 0|1\";",
+        "0 errors."
+      ],
+      "index": 150,
+      "ok": true,
+      "path": "examples/objects/has-verb.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 151,
+      "ok": true,
+      "path": "examples/objects/inherited-property-default.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 152,
+      "ok": true,
+      "path": "examples/objects/move-with-checks.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 153,
+      "ok": true,
+      "path": "examples/objects/object-defines-property-05.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 154,
+      "ok": true,
+      "path": "examples/objects/object-dynamic-property-02.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 155,
+      "ok": true,
+      "path": "examples/objects/object-inherited-verb-scan-06.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 + \"Called by audit helpers to read a property owner with specific error fallback.\";",
+        "0 errors."
+      ],
+      "index": 156,
+      "ok": true,
+      "path": "examples/objects/object-property-info-01.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 - \"Called by audit helpers to read a property owner with specific error fallback.\";",
+        "0 errors."
+      ],
+      "index": 157,
+      "ok": true,
+      "path": "examples/objects/recycle-owned-object.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors.",
+        "Warning on line 15: You are doing an if($recycler:valid()) operation without a ! in front of it, are you SURE that you don't need the bang (!)?"
+      ],
+      "index": 158,
+      "ok": true,
+      "path": "examples/objects/recycler-aware-list-filter.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 159,
+      "ok": true,
+      "path": "examples/objects/set-property-catching-perm.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 + \"Called by patch-specific examples to parse XML with optional patch builtins.\";",
+        "13 + doc = xml_parse_document(xml);",
+        "0 errors."
+      ],
+      "index": 160,
+      "ok": true,
+      "path": "examples/patch-specific/patch-specific-xml-17.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  + \" title: xml-parse-document\";",
+        "7  + \" dialect_reason: uses xml_parse_document() from a non-stock public XML builtin patch\";",
+        "11 - \"Called by patch-specific examples to parse XML with optional patch builtins.\";",
+        "13 - doc = xml_parse_document(xml);",
+        "12 + return xml_parse_document(xml);",
+        "0 errors."
+      ],
+      "index": 161,
+      "ok": true,
+      "path": "examples/patch-specific/xml-parse-document.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \" title: xml-parse-document\";",
+        "3  + \"dialect_reason: Uses xml_parse_tree(), a public patch-specific builtin not available on stock LambdaMOO or ToastStunt.\";",
+        "7  - \" dialect_reason: uses xml_parse_document() from a non-stock public XML builtin patch\";",
+        "10 + \"notes: Shows labeling XML parser usage as patch-specific rather than Sindome-specific.\";",
+        "11 + \":parse_xml_fragment(STR xml) => LIST|ERR\";",
+        "14 + tree = `xml_parse_tree(xml) ! E_INVARG, E_TYPE';",
+        "12 - return xml_parse_document(xml);",
+        "0 errors."
+      ],
+      "index": 162,
+      "ok": true,
+      "path": "examples/patch-specific/xml-result-shape.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  - \"dialect_reason: Uses xml_parse_tree(), a public patch-specific builtin not available on stock LambdaMOO or ToastStunt.\";",
+        "3  + \"dialect_reason: Uses xml_parse_document from a public non-stock XML parser patch.\";",
+        "... (new line 6 unchanged)",
+        "10 - \"notes: Shows labeling XML parser usage as patch-specific rather than Sindome-specific.\";",
+        "10 + \"notes: Patch-specific XML parser example; not stock LambdaMOO or baseline ToastStunt.\";",
+        "11 - \":parse_xml_fragment(STR xml) => LIST|ERR\";",
+        "12 + \"Called by XML import helpers on cores that installed the XML parser patch.\";",
+        "14 - tree = `xml_parse_tree(xml) ! E_INVARG, E_TYPE';",
+        "14 + document = `xml_parse_document(xml) ! E_INVARG, E_TYPE => E_INVARG';",
+        "0 errors."
+      ],
+      "index": 163,
+      "ok": true,
+      "path": "examples/patch-specific/xml-root-name.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  ~ \"dialect_reason: Uses xml_parse_documenttree from a public non-stock XML parser patch.\";",
+        "... (new line 6 unchanged)",
+        "10 - \"notes: Patch-specific XML parser example; not stock LambdaMOO or baseline ToastStunt.\";",
+        "10 + \"notes: Patch-specific XML parser example that handles parse errors explicitly.\";",
+        "12 - \"Called by XML import helpers on cores that installed the XML parser patch.\";",
+        "14 - document = `xml_parse_document(xml) ! E_INVARG, E_TYPE => E_INVARG';",
+        "14 + tree = `xml_parse_tree(xml) ! E_INVARG, E_TYPE => E_INVARG';",
+        "0 errors."
+      ],
+      "index": 164,
+      "ok": true,
+      "path": "examples/patch-specific/xml-tree-count.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  - \"dialect_reason: Uses xml_parse_tree from a public non-stock XML parser patch.\";",
+        "10 - \"notes: Patch-specific XML parser example that handles parse errors explicitly.\";",
+        "14 - tree = `xml_parse_tree(xml) ! E_INVARG, E_TYPE => E_INVARG';",
+        "0 errors."
+      ],
+      "index": 165,
+      "ok": true,
+      "path": "examples/permissions/caller-perms-controls.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 166,
+      "ok": true,
+      "path": "examples/permissions/caller-perms-set-name-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 167,
+      "ok": true,
+      "path": "examples/permissions/caller-perms-wizard-rebuild.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  ~ \"returns: INT|ERRargs: parser dobj\";",
+        "11 + \"notes: Shows command UI authorization with player-facing errors, not programmatic caller_perms() checks.\";",
+        "0 errors."
+      ],
+      "index": 168,
+      "ok": true,
+      "path": "examples/permissions/command-builder-or-owner.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  - \"args: parser dobj\";",
+        "11 - \"notes: Shows command UI authorization with player-facing errors, not programmatic caller_perms() checks.\";",
+        "0 errors."
+      ],
+      "index": 169,
+      "ok": true,
+      "path": "examples/permissions/delegate-caller-perms.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 170,
+      "ok": true,
+      "path": "examples/permissions/delegated-add-exit-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 171,
+      "ok": true,
+      "path": "examples/permissions/delegated-pass-wrapper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 172,
+      "ok": true,
+      "path": "examples/permissions/owner-check.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 173,
+      "ok": true,
+      "path": "examples/permissions/private-dispatcher-helper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 174,
+      "ok": true,
+      "path": "examples/permissions/private-helper-caller-only.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 175,
+      "ok": true,
+      "path": "examples/permissions/private-helper-caller-verb.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 176,
+      "ok": true,
+      "path": "examples/permissions/private-helper-caller.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 177,
+      "ok": true,
+      "path": "examples/permissions/programmatic-controls-caller-perms.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 178,
+      "ok": true,
+      "path": "examples/permissions/wizard-only-maintenance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 179,
+      "ok": true,
+      "path": "examples/permissions-and-ownership/ownership-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 180,
+      "ok": true,
+      "path": "examples/repairs/add-verb-doc-comments.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "15 + \"Called by other verbs; returns errors to the caller instead of printing player feedback.\";",
+        "0 errors."
+      ],
+      "index": 181,
+      "ok": true,
+      "path": "examples/repairs/api-player-tell.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "15 - \"Called by other verbs; returns errors to the caller instead of printing player feedback.\";",
+        "0 errors."
+      ],
+      "index": 182,
+      "ok": true,
+      "path": "examples/repairs/avoid-set-verb-code.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "16 + \"Called by other verbs; catches only missing-property errors and preserves other failures.\";",
+        "0 errors."
+      ],
+      "index": 183,
+      "ok": true,
+      "path": "examples/repairs/broad-except-any.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 + \":parse_count(STR text) => INT|ERR\";",
+        "16 - \"Called by other verbs; catches only missing-property errors and preserves other failures.\";",
+        "12 + \"Called by other verbs; catches only expected conversion errors.\";",
+        "0 errors."
+      ],
+      "index": 184,
+      "ok": true,
+      "path": "examples/repairs/broad-inline-any-catch.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 - \":parse_count(STR text) => INT|ERR\";",
+        "12 - \"Called by other verbs; catches only expected conversion errors.\";",
+        "0 errors."
+      ],
+      "index": 185,
+      "ok": true,
+      "path": "examples/repairs/caller-vs-caller-perms.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 186,
+      "ok": true,
+      "path": "examples/repairs/check-object-validity.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "14 + \"Called by a player command; uses parser text instead of destructuring command args.\";",
+        "0 errors."
+      ],
+      "index": 187,
+      "ok": true,
+      "path": "examples/repairs/command-arg-scatter.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \" title: command-arg-scatterparser-vars\";",
+        "14 - \"Called by a player command; uses parser text instead of destructuring command args.\";",
+        "0 errors."
+      ],
+      "index": 188,
+      "ok": true,
+      "path": "examples/repairs/command-parser-vars.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \" title: command-parser-varsraise-invarg\";",
+        "0 errors."
+      ],
+      "index": 189,
+      "ok": true,
+      "path": "examples/repairs/command-raise-invarg.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 190,
+      "ok": true,
+      "path": "examples/repairs/command-raise-perm.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 191,
+      "ok": true,
+      "path": "examples/repairs/deep-nesting.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 192,
+      "ok": true,
+      "path": "examples/repairs/direct-location-assignment.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 193,
+      "ok": true,
+      "path": "examples/repairs/expand-more-short-refs.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 194,
+      "ok": true,
+      "path": "examples/repairs/expand-short-utility-refs.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 195,
+      "ok": true,
+      "path": "examples/repairs/fork-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors.",
+        "Warning on line 17: tostr usage found inside a :tell call. This is undeeded as :tell will call tostr on all it's args."
+      ],
+      "index": 196,
+      "ok": true,
+      "path": "examples/repairs/guard-args-index.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 197,
+      "ok": true,
+      "path": "examples/repairs/if-assignment.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \" title: if-assignmentnline-error-expression\";",
+        "0 errors."
+      ],
+      "index": 198,
+      "ok": true,
+      "path": "examples/repairs/inline-error-expression.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \" title: inline-error-expression\";",
+        "9  + \" A command verb parses input, validates permissions, mutates state, formats output, and sends notifications in one long body.\";",
+        "0 errors."
+      ],
+      "index": 199,
+      "ok": true,
+      "path": "examples/repairs/long-verb-extract-helper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  - \" A command verb parses input, validates permissions, mutates state, formats output, and sends notifications in one long body.\";",
+        "0 errors."
+      ],
+      "index": 200,
+      "ok": true,
+      "path": "examples/repairs/optional-arg-destructuring.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 201,
+      "ok": true,
+      "path": "examples/repairs/player-wizard-api-check.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 202,
+      "ok": true,
+      "path": "examples/repairs/portable-empty-list.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 203,
+      "ok": true,
+      "path": "examples/repairs/recycler-valid-positive.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 + \"bad: programmatic helpers print routine errors to player.\";",
+        "11 + \"fixed: return an error value to the caller.\";",
+        "0 errors."
+      ],
+      "index": 204,
+      "ok": true,
+      "path": "examples/repairs/repair-api-player-tell-05.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 - \"bad: programmatic helpers print routine errors to player.\";",
+        "11 - \"fixed: return an error value to the caller.\";",
+        "0 errors."
+      ],
+      "index": 205,
+      "ok": true,
+      "path": "examples/repairs/repair-assignment-condition-03.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 206,
+      "ok": true,
+      "path": "examples/repairs/repair-command-feedback-02.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 207,
+      "ok": true,
+      "path": "examples/repairs/repair-deep-nesting-04.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 + \"fixed: catch the expected conversion errors only.\";",
+        "0 errors."
+      ],
+      "index": 208,
+      "ok": true,
+      "path": "examples/repairs/repair-specific-inline-catch-01.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 - \"fixed: catch the expected conversion errors only.\";",
+        "0 errors."
+      ],
+      "index": 209,
+      "ok": true,
+      "path": "examples/repairs/scatter-defaults.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "9  + \" // This may be accepted by ToastStunt source input, but it is not parsed as a MOO statement and will be dropped from stored verb code.\";",
+        "14 + player:tell(\"Comment syntax repaired.\");",
+        "0 errors."
+      ],
+      "index": 210,
+      "ok": true,
+      "path": "examples/repairs/string-literal-comments.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  - \" // This may be accepted by ToastStunt source input, but it is not parsed as a MOO statement and will be dropped from stored verb code.\";",
+        "14 - player:tell(\"Comment syntax repaired.\");",
+        "0 errors.",
+        "Warning on line 9: tostr usage found inside a :tell call. This is undeeded as :tell will call tostr on all it's args."
+      ],
+      "index": 211,
+      "ok": true,
+      "path": "examples/repairs/tell-tostr.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 212,
+      "ok": true,
+      "path": "examples/repairs/toaststunt-builtin-vs-utility.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 213,
+      "ok": true,
+      "path": "examples/repairs/toaststunt-map-literal.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 214,
+      "ok": true,
+      "path": "examples/repairs/toaststunt-map-type-check.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \" title: toaststunt-map-type-checkry-except-syntax\";",
+        "0 errors."
+      ],
+      "index": 215,
+      "ok": true,
+      "path": "examples/repairs/try-except-syntax.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \" title: try-except-syntax\";",
+        "0 errors."
+      ],
+      "index": 216,
+      "ok": true,
+      "path": "examples/repairs/unnecessary-set-task-perms.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 217,
+      "ok": true,
+      "path": "examples/repairs/valid-before-verb-call.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 218,
+      "ok": true,
+      "path": "examples/sources-and-provenance/approved-source-label.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 219,
+      "ok": true,
+      "path": "examples/strings/collapse-whitespace.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 220,
+      "ok": true,
+      "path": "examples/strings/ellipsize-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  + \"notes: Parses simple key:value text into portable association-list rows.\";",
+        "10 + \":parse_key_value_lines(LIST lines) => LIST\";",
+        "0 errors."
+      ],
+      "index": 221,
+      "ok": true,
+      "path": "examples/strings/key-value-lines.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "9  - \"notes: Parses simple key:value text into portable association-list rows.\";",
+        "10 - \":parse_key_value_lines(LIST lines) => LIST\";",
+        "0 errors."
+      ],
+      "index": 222,
+      "ok": true,
+      "path": "examples/strings/pad-columns.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "11 + \"Called by parsers for simple key=value settings; returns {key, value} or E_INVARG.\";",
+        "0 errors."
+      ],
+      "index": 223,
+      "ok": true,
+      "path": "examples/strings/split-key-value.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 - \"Called by parsers for simple key=value settings; returns {key, value} or E_INVARG.\";",
+        "0 errors."
+      ],
+      "index": 224,
+      "ok": true,
+      "path": "examples/strings/starts-or-ends-with.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 225,
+      "ok": true,
+      "path": "examples/strings/title-case-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 226,
+      "ok": true,
+      "path": "examples/strings/trim.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "8  + \"This breaks up the argument string into words, the resulting list being obtained exactly the way the command line parser obtains `args' from `argstr'.\";",
+        "0 errors."
+      ],
+      "index": 227,
+      "ok": true,
+      "path": "examples/strings/words.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5  ~ \" topic: stringstopic: syntax\";",
+        "8  - \"This breaks up the argument string into words, the resulting list being obtained exactly the way the command line parser obtains `args' from `argstr'.\";",
+        "0 errors."
+      ],
+      "index": 228,
+      "ok": true,
+      "path": "examples/syntax/assignment-and-operators.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "0 errors."
+      ],
+      "index": 229,
+      "ok": true,
+      "path": "examples/syntax/conditionals.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "0 errors."
+      ],
+      "index": 230,
+      "ok": true,
+      "path": "examples/syntax/error-expression.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: error-expressionfork-block\";",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "9  + \"notes: Compile-tested against a live MOO scratch verb. Fork examples are syntax-only; prefer scheduler utilities for production task orchestration when a core provides them.\";",
+        "0 errors."
+      ],
+      "index": 231,
+      "ok": true,
+      "path": "examples/syntax/fork-block.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "9  - \"notes: Compile-tested against a live MOO scratch verb. Fork examples are syntax-only; prefer scheduler utilities for production task orchestration when a core provides them.\";",
+        "0 errors."
+      ],
+      "index": 232,
+      "ok": true,
+      "path": "examples/syntax/list-indexing-ranges.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 233,
+      "ok": true,
+      "path": "examples/syntax/literals-and-values.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 234,
+      "ok": true,
+      "path": "examples/syntax/loops-break-continue.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "9  + \"notes: Compile-tested against a live MOO scratch verb. This is syntax-only; pass() requires an inherited verb at runtime.\";",
+        "0 errors."
+      ],
+      "index": 235,
+      "ok": true,
+      "path": "examples/syntax/pass-call.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "9  - \"notes: Compile-tested against a live MOO scratch verb. This is syntax-only; pass() requires an inherited verb at runtime.\";",
+        "0 errors."
+      ],
+      "index": 236,
+      "ok": true,
+      "path": "examples/syntax/property-access.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "0 errors."
+      ],
+      "index": 237,
+      "ok": true,
+      "path": "examples/syntax/scatter-and-optional-args.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  + \"title: syntax-string-literal-comments\";",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "12 + \"They survive parsing in a way that parser-discarded comment syntax may not.\";",
+        "0 errors."
+      ],
+      "index": 238,
+      "ok": true,
+      "path": "examples/syntax/string-literal-comments.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-string-literal-commentscontinue-loop-07\";",
+        "... (new line 4 unchanged)",
+        "5    \"topic: syntax\";",
+        "9  + \"notes: Compact syntax coverage example.\";",
+        "11 + \"called by syntax tests to demonstrate continue.\";",
+        "12 - \"They survive parsing in a way that parser-discarded comment syntax may not.\";",
+        "0 errors."
+      ],
+      "index": 239,
+      "ok": true,
+      "path": "examples/syntax/syntax-continue-loop-07.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-continue-loop-07fork-return-10\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 ~ \"called by syntax tests to demonstrate continuefork block syntax.\";",
+        "0 errors."
+      ],
+      "index": 240,
+      "ok": true,
+      "path": "examples/syntax/syntax-fork-return-10.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-fork-return-10range-forward-03\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to demonstrate fork block syntax.\";",
+        "11 + \"called by syntax tests to build a numeric range list.\";",
+        "0 errors."
+      ],
+      "index": 241,
+      "ok": true,
+      "path": "examples/syntax/syntax-range-forward-03.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-range-forward-03reverse-04\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to build a numeric range list.\";",
+        "11 + \"called by syntax tests to traverse a string backward.\";",
+        "0 errors."
+      ],
+      "index": 242,
+      "ok": true,
+      "path": "examples/syntax/syntax-range-reverse-04.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-range-reverse-04scatter-optional-02\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to traverse a string backward.\";",
+        "11 + \"called by syntax tests to demonstrate optional scatter defaults.\";",
+        "0 errors."
+      ],
+      "index": 243,
+      "ok": true,
+      "path": "examples/syntax/syntax-scatter-optional-02.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-scatter-optional-02rest-01\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to demonstrate optional scatter defaults.\";",
+        "11 + \"called by syntax tests to collect required and rest args.\";",
+        "0 errors."
+      ],
+      "index": 244,
+      "ok": true,
+      "path": "examples/syntax/syntax-scatter-rest-01.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-scatter-rest-01plice-replace-05\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to collect required and rest args.\";",
+        "11 + \"called by syntax tests to replace one list position.\";",
+        "0 errors."
+      ],
+      "index": 245,
+      "ok": true,
+      "path": "examples/syntax/syntax-splice-replace-05.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-splice-replace-05try-except-09\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to replace one list position.\";",
+        "11 + \"called by syntax tests to demonstrate try except endtry.\";",
+        "0 errors."
+      ],
+      "index": 246,
+      "ok": true,
+      "path": "examples/syntax/syntax-try-except-09.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: syntax-try-except-09while-break-06\";",
+        "9    \"notes: Compact syntax coverage example.\";",
+        "11 ~ \"called by syntax tests to demonstrate try except endtrywhile and break.\";",
+        "0 errors."
+      ],
+      "index": 247,
+      "ok": true,
+      "path": "examples/syntax/syntax-while-break-06.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \"title: syntax-while-break-06\";",
+        "5    \"topic: syntax\";",
+        "6  + \"dialect_reason: Uses ToastStunt map literal syntax and key/value map iteration.\";",
+        "9  - \"notes: Compact syntax coverage example.\";",
+        "11 - \"called by syntax tests to demonstrate while and break.\";",
+        "0 errors."
+      ],
+      "index": 248,
+      "ok": true,
+      "path": "examples/syntax/toaststunt-map-iteration.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  + \"title: syntax-toaststunt-map-literal\";",
+        "5    \"topic: syntax\";",
+        "6  ~ \"dialect_reason: Uses ToastStunt map literal syntax and key/value map iterationmap indexing.\";",
+        "0 errors."
+      ],
+      "index": 249,
+      "ok": true,
+      "path": "examples/syntax/toaststunt-map-literal.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \"title: syntax-toaststunt-map-literal\";",
+        "5    \"topic: syntax\";",
+        "6  - \"dialect_reason: Uses ToastStunt map literal syntax and map indexing.\";",
+        "0 errors."
+      ],
+      "index": 250,
+      "ok": true,
+      "path": "examples/syntax/toaststunt-type-constants.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "5    \"topic: syntax\";",
+        "11 +   label = this.missing_property_for_syntax_example;",
+        "0 errors."
+      ],
+      "index": 251,
+      "ok": true,
+      "path": "examples/syntax/try-except.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 -   label = this.missing_property_for_syntax_example;",
+        "0 errors."
+      ],
+      "index": 252,
+      "ok": true,
+      "path": "examples/syntax/verb-calls.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: verb-callssyntax-coverage-guidance\";",
+        "5  ~ \"topic: syntax-coverage\";",
+        "7  + \"notes: Preserved guidance comments for training data about valid syntax examples.\";",
+        "8  + \" Syntax coverage examples should compile as valid MOO source.\";",
+        "11 + \" ToastStunt syntax such as maps and type constants must be labeled by dialect.\";",
+        "12 + return \"Prefer valid narrow examples for syntax coverage.\";",
+        "0 errors."
+      ],
+      "index": 253,
+      "ok": true,
+      "path": "examples/syntax-coverage/syntax-coverage-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \"title: syntax-coverage-guidance\";",
+        "5  ~ \"topic: syntax-coverage topic: tasks\";",
+        "7  - \"notes: Preserved guidance comments for training data about valid syntax examples.\";",
+        "8  - \" Syntax coverage examples should compile as valid MOO source.\";",
+        "11 - \" ToastStunt syntax such as maps and type constants must be labeled by dialect.\";",
+        "12 - return \"Prefer valid narrow examples for syntax coverage.\";",
+        "0 errors."
+      ],
+      "index": 254,
+      "ok": true,
+      "path": "examples/tasks/fork-reminder.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 255,
+      "ok": true,
+      "path": "examples/tasks/task-cleanup-fork-04.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 256,
+      "ok": true,
+      "path": "examples/tasks/task-cleanup-fork-09.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 257,
+      "ok": true,
+      "path": "examples/tasks/task-cleanup-fork-14.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 258,
+      "ok": true,
+      "path": "examples/tasks/task-cleanup-fork-19.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 259,
+      "ok": true,
+      "path": "examples/tasks/task-cleanup-fork-24.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 260,
+      "ok": true,
+      "path": "examples/tasks/task-fork-capture-player-01.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 261,
+      "ok": true,
+      "path": "examples/tasks/task-fork-capture-player-06.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 262,
+      "ok": true,
+      "path": "examples/tasks/task-fork-capture-player-11.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 263,
+      "ok": true,
+      "path": "examples/tasks/task-fork-capture-player-16.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 264,
+      "ok": true,
+      "path": "examples/tasks/task-fork-capture-player-21.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 265,
+      "ok": true,
+      "path": "examples/tasks/task-read-command-input-05.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 266,
+      "ok": true,
+      "path": "examples/tasks/task-revalidate-after-suspend-03.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 267,
+      "ok": true,
+      "path": "examples/tasks/task-yielding-loop-02.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 13 unchanged)",
+        "0 errors."
+      ],
+      "index": 268,
+      "ok": true,
+      "path": "examples/tasks/task-yielding-loop-07.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 13 unchanged)",
+        "0 errors."
+      ],
+      "index": 269,
+      "ok": true,
+      "path": "examples/tasks/task-yielding-loop-12.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 13 unchanged)",
+        "0 errors."
+      ],
+      "index": 270,
+      "ok": true,
+      "path": "examples/tasks/task-yielding-loop-17.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 13 unchanged)",
+        "0 errors."
+      ],
+      "index": 271,
+      "ok": true,
+      "path": "examples/tasks/task-yielding-loop-22.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 272,
+      "ok": true,
+      "path": "examples/tasks/yielding-loop.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 273,
+      "ok": true,
+      "path": "examples/tasks-and-scheduling/scheduling-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 274,
+      "ok": true,
+      "path": "examples/toaststunt/bool-result-helper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 275,
+      "ok": true,
+      "path": "examples/toaststunt/map-cache.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 276,
+      "ok": true,
+      "path": "examples/toaststunt/map-dot-flatten.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 277,
+      "ok": true,
+      "path": "examples/toaststunt/map-dotkey.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 278,
+      "ok": true,
+      "path": "examples/toaststunt/map-frequency-count.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 279,
+      "ok": true,
+      "path": "examples/toaststunt/map-print.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 280,
+      "ok": true,
+      "path": "examples/toaststunt/map-union.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 281,
+      "ok": true,
+      "path": "examples/toaststunt/map-validate-key.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 282,
+      "ok": true,
+      "path": "examples/toaststunt/object-ancestors-builtin-wrapper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 283,
+      "ok": true,
+      "path": "examples/toaststunt/object-isa-builtin-wrapper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  + \"dialect_reason: Uses ToastStunt MAP/BOOL syntax or map builtins.\";",
+        "0 errors."
+      ],
+      "index": 284,
+      "ok": true,
+      "path": "examples/toaststunt/toaststunt-map-bool-02.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3    \"dialect_reason: Uses ToastStunt MAP/BOOL syntax or map builtins.\";",
+        "0 errors."
+      ],
+      "index": 285,
+      "ok": true,
+      "path": "examples/toaststunt/toaststunt-map-bool-03.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3    \"dialect_reason: Uses ToastStunt MAP/BOOL syntax or map builtins.\";",
+        "0 errors."
+      ],
+      "index": 286,
+      "ok": true,
+      "path": "examples/toaststunt/toaststunt-map-bool-04.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  - \"dialect_reason: Uses ToastStunt MAP/BOOL syntax or map builtins.\";",
+        "3  + \"dialect_reason: Discusses ToastStunt-only builtins such as MAP helpers and parse_json().\";",
+        "10 + \" Builtins such as mapkeys, mapvalues, parse_json, curl, new_waif, and descendants create a dialect dependency.\";",
+        "11 + \" Patch-specific builtins such as xml_parse_tree should be labeled patch-specific instead of ToastStunt-specific.\";",
+        "0 errors."
+      ],
+      "index": 287,
+      "ok": true,
+      "path": "examples/toaststunt-builtins/toaststunt-builtins-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  - \"dialect_reason: Discusses ToastStunt-only builtins such as MAP helpers and parse_json().\";",
+        "10 - \" Builtins such as mapkeys, mapvalues, parse_json, curl, new_waif, and descendants create a dialect dependency.\";",
+        "11 - \" Patch-specific builtins such as xml_parse_tree should be labeled patch-specific instead of ToastStunt-specific.\";",
+        "0 errors."
+      ],
+      "index": 288,
+      "ok": true,
+      "path": "examples/toaststunt-differences/toaststunt-bool-map-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 289,
+      "ok": true,
+      "path": "examples/training-data-guide/metadata-preserved.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 290,
+      "ok": true,
+      "path": "examples/training-usage/sampling-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 291,
+      "ok": true,
+      "path": "examples/utility-package-curation/adapted-example-metadata.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 292,
+      "ok": true,
+      "path": "examples/utility-packages/ansi-aware-wrap-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 293,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-corify-object-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 294,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-display-code-differences-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 295,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-egrep-verb-code-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "8  + \"args: ERR error\";",
+        "10 + \"notes: Shows converting an error value into its literal error-name string.\";",
+        "11 + \":error_name(ERR error) => STR\";",
+        "12 + \"Return the literal name of an error value, such as E_INVARG.\";",
+        "13 + {error} = args;",
+        "14 + return toliteral(error);",
+        "0 errors."
+      ],
+      "index": 296,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-error-name-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-code-utils-error-namefind-callable-verb-named\";",
+        "8  - \"args: ERR error\";",
+        "10 - \"notes: Shows converting an error value into its literal error-name string.\";",
+        "11 - \":error_name(ERR error) => STR\";",
+        "12 - \"Return the literal name of an error value, such as E_INVARG.\";",
+        "14 - return toliteral(error);",
+        "0 errors."
+      ],
+      "index": 297,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-find-callable-verb-named-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 298,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-find-last-verb-named-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 299,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-find-verb-named-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 300,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-get-verbs-json-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 301,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-inside-quotes-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 302,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-is-verb-queued-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-code-utils-is-verb-queuedparse-argspec\";",
+        "4  + \"provenance: Adapted from $code_utils:parse_argspec with permission from Sindome (www.sindome.org); VMS metadata removed.\";",
+        "11 + \":parse_argspec(STR ...) => LIST|STR\";",
+        "12 + \"Parse command argspec tokens and return {verb_args, remaining_args}, or an error string.\";",
+        "0 errors."
+      ],
+      "index": 303,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-parse-argspec-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-code-utils-parse-argspecverbref\";",
+        "4  - \"provenance: Adapted from $code_utils:parse_argspec with permission from Sindome (www.sindome.org); VMS metadata removed.\";",
+        "4  + \"provenance: Adapted from $code_utils:parse_verbref with permission from Sindome (www.sindome.org); VMS metadata, raw object ids, and disabled historical branch removed.\";",
+        "11 - \":parse_argspec(STR ...) => LIST|STR\";",
+        "11 + \":parse_verbref(STR reference) => LIST|INT\";",
+        "12 - \"Parse command argspec tokens and return {verb_args, remaining_args}, or an error string.\";",
+        "12 + \"Parse a string like `$thing:verb` or `object:verb` into {object_text, verb_name}; return 0 on failure.\";",
+        "0 errors."
+      ],
+      "index": 304,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-parse-verbref-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-code-utils-parse-verbrefshort-prep\";",
+        "4  - \"provenance: Adapted from $code_utils:parse_verbref with permission from Sindome (www.sindome.org); VMS metadata, raw object ids, and disabled historical branch removed.\";",
+        "11 - \":parse_verbref(STR reference) => LIST|INT\";",
+        "12 - \"Parse a string like `$thing:verb` or `object:verb` into {object_text, verb_name}; return 0 on failure.\";",
+        "0 errors."
+      ],
+      "index": 305,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-short-prep-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 306,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-substitute-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 307,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-task-owner-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 308,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-task-valid-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 309,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-verb-documentation-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 310,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-verb-or-property-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 311,
+      "ok": true,
+      "path": "examples/utility-packages/code-utils-verbdef-summary-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  + \"title: utility-command-utils-explain-syntax\";",
+        "4  + \"provenance: Adapted from $command_utils:explain_syntax with permission from Sindome (www.sindome.org); player feedback and short refs replaced with returned suggestions.\";",
+        "10 + \"notes: Shows command parser argspec inspection without printing player feedback.\";",
+        "11 + \":explain_syntax(OBJ location, STR verb_name, LIST candidates) => LIST\";",
+        "12 + \"Return syntax summaries for candidate objects that define verb_name.\";",
+        "0 errors."
+      ],
+      "index": 312,
+      "ok": true,
+      "path": "examples/utility-packages/command-utils-explain-syntax-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-command-utils-explain-syntaxread-selection\";",
+        "4  - \"provenance: Adapted from $command_utils:explain_syntax with permission from Sindome (www.sindome.org); player feedback and short refs replaced with returned suggestions.\";",
+        "10 - \"notes: Shows command parser argspec inspection without printing player feedback.\";",
+        "11 - \":explain_syntax(OBJ location, STR verb_name, LIST candidates) => LIST\";",
+        "12 - \"Return syntax summaries for candidate objects that define verb_name.\";",
+        "0 errors."
+      ],
+      "index": 313,
+      "ok": true,
+      "path": "examples/utility-packages/command-utils-read-selection-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 314,
+      "ok": true,
+      "path": "examples/utility-packages/command-utils-running-out-of-time-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 315,
+      "ok": true,
+      "path": "examples/utility-packages/command-utils-task-info-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 + \"notes: Shows command-task input handling, caller-derived player lookup, and specific error returns.\";",
+        "35 + except error (E_INVARG)",
+        "37 + except error (ANY)",
+        "38 +   return error[1];",
+        "0 errors."
+      ],
+      "index": 316,
+      "ok": true,
+      "path": "examples/utility-packages/command-utils-yes-or-no-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "11 - \"notes: Shows command-task input handling, caller-derived player lookup, and specific error returns.\";",
+        "35 - except error (E_INVARG)",
+        "37 - except error (ANY)",
+        "38 -   return error[1];",
+        "0 errors."
+      ],
+      "index": 317,
+      "ok": true,
+      "path": "examples/utility-packages/duration-format-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 + \"notes: Shows flattening variadic list arguments with splice syntax.\";",
+        "0 errors."
+      ],
+      "index": 318,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-append-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 - \"notes: Shows flattening variadic list arguments with splice syntax.\";",
+        "0 errors."
+      ],
+      "index": 319,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-assoc-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 320,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-assoc-filter-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 321,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-assoc-prefix-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 322,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-check-nonstring-tell-lines-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 323,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-count-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 324,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-flatten-suspended-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 325,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-group-by-column-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 326,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-iassoc-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 327,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-iassoc-sorted-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 328,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-make-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 329,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-map-prop-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 330,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-randomly-permute-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 331,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-recursive-length-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 332,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-remove-duplicates-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 333,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-setreplace-all-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 334,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-slice-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 335,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-swap-elements-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 336,
+      "ok": true,
+      "path": "examples/utility-packages/list-utils-zip-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 337,
+      "ok": true,
+      "path": "examples/utility-packages/map-utils-dot-flatten-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  + \"dialect_reason: Uses Sindome-specific $map_utils plus ToastStunt map syntax, MAP type checks, and map indexing.\";",
+        "0 errors."
+      ],
+      "index": 338,
+      "ok": true,
+      "path": "examples/utility-packages/map-utils-dotkey-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "3  - \"dialect_reason: Uses Sindome-specific $map_utils plus ToastStunt map syntax, MAP type checks, and map indexing.\";",
+        "0 errors."
+      ],
+      "index": 339,
+      "ok": true,
+      "path": "examples/utility-packages/map-utils-validate-map-key-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 340,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-average-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 341,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-combinations-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 342,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-gcd-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 343,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-interpolate-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 344,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-is-prime-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 345,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-permutations-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 346,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-random-between-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 347,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-round-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 348,
+      "ok": true,
+      "path": "examples/utility-packages/math-utils-tan-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 349,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-all-contents-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 350,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-all-properties-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 351,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-ancestors-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 352,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-branches-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 353,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-contains-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 354,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-defines-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 355,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-findable-properties-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 356,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-has-callable-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 357,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-has-readable-prop-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 + \"notes: Shows walking inheritance with verb_info() and inline error catching.\";",
+        "0 errors."
+      ],
+      "index": 358,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-has-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "10 - \"notes: Shows walking inheritance with verb_info() and inline error catching.\";",
+        "0 errors."
+      ],
+      "index": 359,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-isoneof-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 360,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-match-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 361,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-opaque-properties-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 362,
+      "ok": true,
+      "path": "examples/utility-packages/object-utils-owned-properties-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  + \"title: parse-english-time-interval-adapted\";",
+        "4  + \"provenance: Adapted from $time_utils:parse_english_time_interval with permission from Sindome (www.sindome.org); VMS history removed.\";",
+        "11 + \":parse_english_time_interval(@STR words) => INT|ERR\";",
+        "14 +   return this:parse_english_time_interval(@$string_utils:words(args[1]));",
+        "0 errors."
+      ],
+      "index": 363,
+      "ok": true,
+      "path": "examples/utility-packages/parse-english-time-interval-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  - \"title: parse-english-time-interval-adapted\";",
+        "4  - \"provenance: Adapted from $time_utils:parse_english_time_interval with permission from Sindome (www.sindome.org); VMS history removed.\";",
+        "11 - \":parse_english_time_interval(@STR words) => INT|ERR\";",
+        "14 -   return this:parse_english_time_interval(@$string_utils:words(args[1]));",
+        "0 errors."
+      ],
+      "index": 364,
+      "ok": true,
+      "path": "examples/utility-packages/scheduler-check-repeat-args-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 365,
+      "ok": true,
+      "path": "examples/utility-packages/scheduler-describe-repeat-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 366,
+      "ok": true,
+      "path": "examples/utility-packages/scheduler-match-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 367,
+      "ok": true,
+      "path": "examples/utility-packages/scheduler-schedule-at-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 368,
+      "ok": true,
+      "path": "examples/utility-packages/scheduler-schedule-for-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 369,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-capitalize-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 370,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-csv-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 371,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-ellipsize-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 372,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-english-list-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 373,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-from-seconds-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 374,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-group-number-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 + \"Called by parsers to find every occurrence of a substring in one pass.\";",
+        "0 errors."
+      ],
+      "index": 375,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-index-all-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 - \"Called by parsers to find every occurrence of a substring in one pass.\";",
+        "12 + \"Called by parsers before converting user-provided text with toint().\";",
+        "0 errors."
+      ],
+      "index": 376,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-is-integer-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "12 - \"Called by parsers before converting user-provided text with toint().\";",
+        "0 errors."
+      ],
+      "index": 377,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-name-and-number-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 378,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-name-of-single-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 379,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-names-of-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-string-utils-names-ofparse-command\";",
+        "4  + \"provenance: Adapted from $string_utils:parse_command with permission from Sindome (www.sindome.org); VMS metadata removed and parser simulation simplified.\";",
+        "10 + \"notes: Shows splitting a command string into verb, word args, and raw arg text without relying on command parser variables.\";",
+        "11 + \":parse_command(STR command_line) => LIST\";",
+        "0 errors."
+      ],
+      "index": 380,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-parse-command-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-string-utils-parse-commandside-by-side\";",
+        "4  - \"provenance: Adapted from $string_utils:parse_command with permission from Sindome (www.sindome.org); VMS metadata removed and parser simulation simplified.\";",
+        "10 - \"notes: Shows splitting a command string into verb, word args, and raw arg text without relying on command parser variables.\";",
+        "11 - \":parse_command(STR command_line) => LIST\";",
+        "0 errors."
+      ],
+      "index": 381,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-side-by-side-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 382,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-starts-with-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 383,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-trim-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 384,
+      "ok": true,
+      "path": "examples/utility-packages/string-utils-unshorten-direction-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 385,
+      "ok": true,
+      "path": "examples/utility-packages/time-utils-ampm-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 386,
+      "ok": true,
+      "path": "examples/utility-packages/time-utils-duration-format-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 387,
+      "ok": true,
+      "path": "examples/utility-packages/time-utils-mmddyy-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-time-utils-mmddyyparse-english-time-interval\";",
+        "4  + \"provenance: Adapted from $time_utils:parse_english_time_interval with permission from Sindome (www.sindome.org); source-control metadata removed.\";",
+        "11 + \":parse_english_time_interval(STR|LIST words) => INT|ERR\";",
+        "12 + \"Called by scheduling helpers to parse phrases like '2 minutes and 30 seconds'.\";",
+        "0 errors."
+      ],
+      "index": 388,
+      "ok": true,
+      "path": "examples/utility-packages/time-utils-parse-english-time-interval-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "1  ~ \"title: utility-time-utils-parse-english-time-intervalto-seconds\";",
+        "4  - \"provenance: Adapted from $time_utils:parse_english_time_interval with permission from Sindome (www.sindome.org); source-control metadata removed.\";",
+        "11 - \":parse_english_time_interval(STR|LIST words) => INT|ERR\";",
+        "12 - \"Called by scheduling helpers to parse phrases like '2 minutes and 30 seconds'.\";",
+        "0 errors."
+      ],
+      "index": 389,
+      "ok": true,
+      "path": "examples/utility-packages/time-utils-to-seconds-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 390,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-code-grep-lines-04.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 391,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-command-confirm-word-06.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 392,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-list-zip-pairs-01.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 393,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-object-callable-verb-03.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 394,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-scheduler-next-delay-07.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 395,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-string-capitalize-word-02.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 396,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-time-seconds-label-05.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 397,
+      "ok": true,
+      "path": "examples/utility-packages/utility-expanded-xterm-strip-tag-08.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 398,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-char-index-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 399,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-cutoff-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 400,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-index-to-foreground-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 401,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-length-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 402,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-map-decorator-to-flag-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 403,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-strip-tags-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 404,
+      "ok": true,
+      "path": "examples/utility-packages/xterm256-tag-string-to-parts-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 405,
+      "ok": true,
+      "path": "examples/verb-doc-comments/programmatic-doc-comment-guidance.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "8  + \"args: parser argstr\";",
+        "10 + \"notes: Shows top documentation for a command verb, including parser-driven invocation.\";",
+        "12 + \"Called by players as `@rename <new name>`; uses argstr from the command parser and tells the player on failure.\";",
+        "0 errors."
+      ],
+      "index": 406,
+      "ok": true,
+      "path": "examples/verb-docs/command-signature.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "8  ~ \"args: parser argstrreturns: MIXED\";",
+        "10 - \"notes: Shows top documentation for a command verb, including parser-driven invocation.\";",
+        "12 - \"Called by players as `@rename <new name>`; uses argstr from the command parser and tells the player on failure.\";",
+        "0 errors."
+      ],
+      "index": 407,
+      "ok": true,
+      "path": "examples/verb-docs/delegation-signature.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 408,
+      "ok": true,
+      "path": "examples/verb-docs/leading-string-docs-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "8  + \"Called by matching helpers. Returns the matched object, 0 when quiet and no match is found, or a string error message.\";",
+        "0 errors."
+      ],
+      "index": 409,
+      "ok": true,
+      "path": "examples/verb-docs/mixed-return-signature.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "8  - \"Called by matching helpers. Returns the matched object, 0 when quiet and no match is found, or a string error message.\";",
+        "0 errors."
+      ],
+      "index": 410,
+      "ok": true,
+      "path": "examples/verb-docs/programmatic-signature.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 411,
+      "ok": true,
+      "path": "examples/verb-docs/signature-with-optional-and-rest.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 412,
+      "ok": true,
+      "path": "examples/verbs/call-helper.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 413,
+      "ok": true,
+      "path": "examples/verbs/find-callable-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 414,
+      "ok": true,
+      "path": "examples/verbs/match-inherited-verb-adapted.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 415,
+      "ok": true,
+      "path": "examples/verbs/simple-tell.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 416,
+      "ok": true,
+      "path": "examples/verbs/verb-args-display-row.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "... (new line 4 unchanged)",
+        "0 errors."
+      ],
+      "index": 417,
+      "ok": true,
+      "path": "examples/verbs/verb-args-summary-04.moo"
+    },
+    {
+      "errors": [
+        "Now programming MOOBot22684 (#107451):llm_syntax_test(1).",
+        "0 errors."
+      ],
+      "index": 418,
+      "ok": true,
+      "path": "examples/verbs/verb-info-flags-03.moo"
+    }
+  ],
+  "started_at": "2026-06-05T17:35:43Z",
+  "target": "me:llm_syntax_test",
+  "total": 418
+}

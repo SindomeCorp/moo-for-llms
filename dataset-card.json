@@ -8,7 +8,7 @@
     "instruction_rows": 78,
     "contrastive_rows": 92,
     "eval_rows": 336,
-    "docs": 35
+    "docs": 37
   },
   "dialects": ["portable", "toaststunt", "core-specific", "patch-specific"],
   "recommended_validation": "make verify",

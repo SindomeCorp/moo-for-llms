@@ -29,6 +29,8 @@ DOC_STEMS_WITHOUT_EXAMPLE_TOPICS = {
     "duplicate-policy",
     "eval-coverage-report",
     "generated-expansion-quality-review",
+    "near-family-duplicate-review",
+    "roadmap",
     "training-canary",
     "training-quality-report",
     "training-recipes",

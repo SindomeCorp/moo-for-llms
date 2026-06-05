@@ -13,7 +13,7 @@ Current generated report counts:
 - Instruction rows: 78
 - Contrastive rows: 92
 - Eval rows: 336
-- Docs: 35
+- Docs: 37
 
 Regenerate counts with:
 
