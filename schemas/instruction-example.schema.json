@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/moo-for-llms/instruction-example.schema.json",
+  "title": "MOO Instruction Example",
+  "type": "object",
+  "required": [
+    "id",
+    "instruction",
+    "input",
+    "output",
+    "topic",
+    "dialect",
+    "source",
+    "license",
+    "reviewed"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "instruction": { "type": "string", "minLength": 1 },
+    "input": { "type": "string" },
+    "output": { "type": "string", "minLength": 1 },
+    "topic": { "type": "string", "minLength": 1 },
+    "dialect": {
+      "type": "string",
+      "enum": ["portable", "lambdamoo", "stunt", "toaststunt", "core-specific", "patch-specific"]
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "original",
+        "manual-summary",
+        "curated-public",
+        "approved-generic-sindome"
+      ]
+    },
+    "license": { "type": "string", "minLength": 1 },
+    "reviewed": { "type": "boolean" }
+  },
+  "additionalProperties": false
+}

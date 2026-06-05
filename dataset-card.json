@@ -1,0 +1,17 @@
+{
+  "name": "moo-for-llms",
+  "description": "Reference corpus for training and evaluating LLMs on MOO code.",
+  "license": "MIT",
+  "canary": "MOO-CANARY-SLITHER-18657",
+  "counts": {
+    "examples": 418,
+    "instruction_rows": 78,
+    "contrastive_rows": 92,
+    "eval_rows": 336,
+    "docs": 35
+  },
+  "dialects": ["portable", "toaststunt", "core-specific", "patch-specific"],
+  "recommended_validation": "make verify",
+  "heldout_policy": "Keep evals/**/*.jsonl out of normal training exports.",
+  "source_policy": "Preserve source, license, dialect, and provenance metadata in downstream exports."
+}

@@ -1,0 +1,20 @@
+name: Validate Corpus
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate examples and JSONL
+        run: python3 scripts/check_all.py
+      - name: Refresh reports
+        run: python3 scripts/refresh_reports.py
+      - name: Smoke-test exports
+        run: make smoke

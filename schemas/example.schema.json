@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/moo-for-llms/example.schema.json",
+  "title": "MOO Example Metadata",
+  "type": "object",
+  "required": ["title", "dialect", "source", "license", "topic"],
+  "properties": {
+    "title": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "dialect": {
+      "type": "string",
+      "enum": ["portable", "lambdamoo", "stunt", "toaststunt", "core-specific", "patch-specific"]
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "original",
+        "manual-summary",
+        "curated-public",
+        "approved-generic-sindome"
+      ]
+    },
+    "license": { "type": "string", "minLength": 1 },
+    "topic": { "type": "string", "minLength": 1 },
+    "provenance": { "type": "string", "minLength": 1 },
+    "setup": { "type": "string", "minLength": 1 },
+    "dialect_reason": { "type": "string", "minLength": 1 },
+    "args": { "type": "string", "minLength": 1 },
+    "returns": { "type": "string", "minLength": 1 },
+    "notes": { "type": "string", "minLength": 1 },
+    "callable": {
+      "type": "string",
+      "enum": ["programmatic", "command", "fragment"]
+    }
+  },
+  "additionalProperties": false
+}

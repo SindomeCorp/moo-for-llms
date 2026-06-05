@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/moo-for-llms/eval-case.schema.json",
+  "title": "MOO Eval Case",
+  "type": "object",
+  "required": ["id", "kind", "dialect", "prompt", "source", "license", "reviewed"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "kind": { "type": "string", "enum": ["syntax", "bugfix", "codegen"] },
+    "dialect": {
+      "type": "string",
+      "enum": ["portable", "lambdamoo", "stunt", "toaststunt", "core-specific", "patch-specific"]
+    },
+    "prompt": { "type": "string", "minLength": 1 },
+    "input": { "type": "string" },
+    "expected": { "type": "string" },
+    "expected_properties": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "original",
+        "manual-summary",
+        "curated-public",
+        "approved-generic-sindome"
+      ]
+    },
+    "license": { "type": "string", "minLength": 1 },
+    "reviewed": { "type": "boolean" }
+  },
+  "additionalProperties": false,
+  "anyOf": [
+    { "required": ["expected"] },
+    { "required": ["expected_properties"] }
+  ]
+}

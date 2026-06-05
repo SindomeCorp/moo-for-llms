@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/moo-for-llms/contrastive-example.schema.json",
+  "title": "MOO Contrastive Example",
+  "type": "object",
+  "required": [
+    "id",
+    "snippet",
+    "label",
+    "explanation",
+    "dialect",
+    "source",
+    "license",
+    "reviewed"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "snippet": { "type": "string", "minLength": 1 },
+    "label": {
+      "type": "string",
+      "enum": [
+        "valid_moo",
+        "invalid_syntax",
+        "bad_pattern",
+        "wrong_dialect",
+        "unsafe_permission",
+        "command_parser_mistake",
+        "bad_error_flow",
+        "core_command_vs_language",
+        "unsafe_lifecycle_mutation"
+      ]
+    },
+    "explanation": { "type": "string", "minLength": 1 },
+    "fixed": { "type": "string", "minLength": 1 },
+    "dialect": {
+      "type": "string",
+      "enum": ["portable", "lambdamoo", "stunt", "toaststunt", "core-specific", "patch-specific"]
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "original",
+        "manual-summary",
+        "curated-public",
+        "approved-generic-sindome"
+      ]
+    },
+    "license": { "type": "string", "minLength": 1 },
+    "reviewed": { "type": "boolean" }
+  },
+  "additionalProperties": false
+}

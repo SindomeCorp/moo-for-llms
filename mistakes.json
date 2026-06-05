@@ -1,0 +1,58 @@
+[
+  {
+    "id": "syntax-probe-portable-fork-server-log",
+    "incorrect_verb": "fork (1)\n  server_log(\"syntax coverage fork branch\");\nendfork\nreturn 1;",
+    "corrected_verb": "result = 0;\nfork (1)\n  result = 1;\nendfork\nreturn 1;",
+    "thinking": "I was checking fork block syntax and used server_log() as a harmless-looking body statement. That compiled on the live ToastStunt MOO, but it would make the example ToastStunt-specific because server_log() is not a portable LambdaMOO syntax example in this corpus baseline.",
+    "explanation": "The portable fork syntax example now uses only assignment inside the fork body. This keeps the example focused on fork/endfork syntax instead of introducing a dialect-specific builtin."
+  },
+  {
+    "id": "utility-curation-code-scanner-warnings",
+    "incorrect_verb": "$list_utils:slice adaptation with nested multi-index extraction, and $time_utils:english_time adaptation containing `if ((month = month + 1) > 12)` plus 47 lines of code.",
+    "corrected_verb": "$list_utils:slice adaptation now demonstrates single-column extraction with one loop. $time_utils:english_time was replaced with a shorter $time_utils:duration_format adaptation.",
+    "thinking": "The examples compiled with 0 errors, so I initially treated them as acceptable. The live MOO scanner warnings showed that compile-valid code can still be poor training material when it normalizes deeper nesting or assignment inside a conditional.",
+    "explanation": "The curated examples should model code that is both syntactically valid and stylistically aligned with the repo guidance. The replacements preserve the teaching goals while avoiding scanner warnings."
+  },
+  {
+    "id": "utility-curation-at-caller-syntax",
+    "incorrect_verb": "controlled = @caller == command_player || $perm_utils:controls(caller_perms(), command_player);",
+    "corrected_verb": "controlled = caller == command_player || $perm_utils:controls(caller_perms(), command_player);",
+    "thinking": "I adapted a line from a command utility and left `@caller` inside a normal boolean expression. In MOO, `@` is splice syntax for argument/list expansion contexts, not a general prefix operator for a variable reference.",
+    "explanation": "The corrected version uses the normal `caller` task variable for the comparison. I also split `answer = $string_utils:trim(answer)` out of the `if` condition so the example avoids assignment-inside-condition style warnings."
+  },
+  {
+    "id": "utility-curation-assoc-nesting-warning",
+    "incorrect_verb": "if (`row[index] == target ! E_TYPE, E_RANGE => 0')\n  if (typeof(row) == LIST && length(row) >= index)\n    return row;\n  endif\nendif",
+    "corrected_verb": "matches = `row[index] == target ! E_TYPE, E_RANGE => 0';\nif (matches && typeof(row) == LIST && length(row) >= index)\n  return row;\nendif",
+    "thinking": "The first assoc adaptation compiled, but it preserved nested conditionals from the original and triggered the live scanner's max nesting warning.",
+    "explanation": "The corrected version stores the guarded comparison result, then uses one combined condition. It keeps the inline catch lesson while avoiding unnecessary nesting."
+  },
+  {
+    "id": "utility-curation-dot-flatten-nesting-warning",
+    "incorrect_verb": "while (queue)\n  current = queue[1];\n  queue = listdelete(queue, 1);\n  for key in (mapkeys(current[2]))\n    value = current[2][key];\n    if (typeof(value) == MAP)\n      queue = {@queue, {path, value}};\n    endif\n    results = {@results, path};\n  endfor\nendwhile",
+    "corrected_verb": "while (queue)\n  current = queue[1];\n  queue = listdelete(queue, 1);\n  for key in (mapkeys(current[2]))\n    value = current[2][key];\n    queue = typeof(value) == MAP ? {@queue, {path, value}} | queue;\n    results = {@results, path};\n  endfor\nendwhile",
+    "thinking": "The map dot-flatten adaptation compiled, but the live scanner warned because while + for + if created a max nesting depth of 3. I initially focused on preserving the original structure instead of flattening the conditional.",
+    "explanation": "The corrected version keeps the queue-based traversal but replaces the inner if block with a conditional expression assignment. That keeps the teaching goal while avoiding an avoidable nesting warning."
+  },
+  {
+    "id": "utility-curation-recursive-length-nesting-warning",
+    "incorrect_verb": "total = length(values);\nif (recurse)\n  for value in (values)\n    if (typeof(value) == LIST)\n      total = total + this:recursive_length(value, recurse);\n    endif\n    $command_utils:suspend_if_needed(0);\n  endfor\nendif\nreturn total;",
+    "corrected_verb": "total = length(values);\nif (!recurse)\n  return total;\nendif\nfor value in (values)\n  if (typeof(value) == LIST)\n    total = total + this:recursive_length(value, recurse);\n  endif\n  $command_utils:suspend_if_needed(0);\nendfor\nreturn total;",
+    "thinking": "The recursive length adaptation compiled, but it preserved an outer if wrapping a for loop and an inner if, which produced the scanner's max nesting warning.",
+    "explanation": "The corrected version uses an early return for the non-recursive case, reducing the remaining loop to a for plus one inner if. This keeps the recursive behavior while matching the scanner guidance."
+  },
+  {
+    "id": "source-provenance-vms-note-string-captured-as-note",
+    "incorrect_verb": "\"Non-original examples need provenance.\";\n\"Approved-generic-sindome means generic Sindome-derived code used with permission and stripped of game-specific details.\";\n\"Strip trailing VMS note/version metadata from adapted Sindome verbs.\";\nreturn \"provenance documented\";",
+    "corrected_verb": "\"Non-original examples need provenance.\";\n\"Approved-generic-sindome means generic Sindome-derived code used with permission and stripped of game-specific details.\";\n\"Strip trailing version metadata from adapted Sindome verbs.\";\nreturn \"provenance documented\";",
+    "thinking": "During the live @program syntax probe, the string-literal comment containing `VMS note/version` did not appear in the saved verb body and was instead captured in the VMS notes section. I initially treated the 0-error compile result as sufficient before reading the source back.",
+    "explanation": "The example keeps the same provenance lesson but avoids the exact phrase that the live programming workflow treated as note metadata. Source readback is useful for comment-heavy examples, because a compile result alone can miss line-capture issues."
+  },
+  {
+    "id": "expansion-command-parser-colon-property-assignment",
+    "incorrect_verb": "if (!valid(dobj))\n  player:tell(\"Use what on \", this.name, \"?\");\n  return;\nendif\nthis:last_used = dobj;\nplayer:tell(\"You use \", dobj.name, \" on \", this.name, \".\");",
+    "corrected_verb": "if (!valid(dobj))\n  player:tell(\"Use what on \", this.name, \"?\");\n  return;\nendif\nthis.last_used = dobj;\nplayer:tell(\"You use \", dobj.name, \" on \", this.name, \".\");",
+    "thinking": "While generating command parser examples, I accidentally used colon syntax for property assignment. In MOO, `object:verb(...)` calls a verb, while `object.property = value` assigns a property.",
+    "explanation": "The corrected example uses dot property assignment. The live compile probe caught this with a line 7 syntax error, so the generated command parser batch was regenerated before continuing."
+  }
+]

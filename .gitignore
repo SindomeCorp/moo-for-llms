@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports, prompt exports, local train/eval splits, and live-MOO pull scratch data.
+tmp/
+datasets/splits/
+
+# Local editor and OS files.
+.DS_Store
+.idea/
+.vscode/
+*.swp
