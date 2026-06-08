@@ -3,7 +3,7 @@
 MOO for LLMs is a public, MIT-licensed reference corpus for teaching language
 models how to read, write, and repair MOO code.
 
-Current release: `v1.2.1`.
+Current release: `v1.2.2`.
 
 The initial scope is generic MOO programming across LambdaMOO, Stunt, and
 ToastStunt. ToastStunt is a fork of Stunt, which is a fork of LambdaMOO, so
@@ -20,7 +20,7 @@ otherwise.
 - `evals/`: seed tasks for syntax recognition, bug fixing, and code generation.
 - `datasets/`: reviewed instruction examples for LLM training or evaluation.
 - `schemas/`: JSON Schemas for machine-readable dataset and eval records.
-- `grammar/`: notes for a future external tree-sitter grammar project.
+- `grammar/`: notes for the external `SindomeCorp/tree-sitter-moo` grammar project.
 
 ## Source Anchors
 

@@ -1,11 +1,15 @@
 # Grammar
 
-The tree-sitter grammar is intentionally not embedded in this repository yet.
+The maintained tree-sitter grammar lives in the public
+`SindomeCorp/tree-sitter-moo` repository:
 
-Planned direction:
+https://github.com/SindomeCorp/tree-sitter-moo
 
-- Create a separate `tree-sitter-moo` project.
-- Use ToastStunt's parser grammar and manuals as reference material.
-- Keep this repo's syntax evals as fixtures that the grammar project can import
-  or mirror.
-- Add the grammar project link here once it exists.
+This corpus keeps grammar notes separate from the parser implementation. Use the
+tree-sitter project for parser development, editor integration, and grammar
+tests. Use this repository for curated MOO examples, docs, evals, and
+training-oriented syntax fixtures.
+
+The syntax evals and examples here can be imported or mirrored by
+`tree-sitter-moo` as parser fixtures, but parser source should stay in the
+grammar repository.

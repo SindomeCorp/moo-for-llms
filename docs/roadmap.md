@@ -26,8 +26,8 @@ an uncurated dump.
   game objects or permissions.
 - Expand dialect classification around Stunt versus ToastStunt versus patched
   LambdaMOO servers.
-- Add a small grammar/parser integration once a maintained MOO grammar is
-  available.
+- Add parser-fixture integration with `SindomeCorp/tree-sitter-moo` so syntax
+  examples and evals can be shared with the maintained grammar project.
 
 ## Constraints
 
