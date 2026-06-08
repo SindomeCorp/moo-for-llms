@@ -1,7 +1,7 @@
 # Release Steps
 
-This repo publishes annotated git tags such as `v1.0.0`, `v1.0.1`, and
-`v1.1.0`. GitHub Release pages are published with `gh`.
+This repo publishes annotated git tags such as `v1.0.0`, `v1.1.0`, and
+`v1.2.0`. GitHub Release pages are published with `gh`.
 
 ```text
 https://github.com/SindomeCorp/moo-for-llms/releases
@@ -13,12 +13,12 @@ After committing, pushing, and confirming CI for a future release, create an
 annotated tag and publish a release. For example:
 
 ```bash
-git tag -a v1.2.0 -m "MOO for LLMs v1.2.0"
-git push origin v1.2.0
-gh release create v1.2.0 \
+git tag -a v1.3.0 -m "MOO for LLMs v1.3.0"
+git push origin v1.3.0
+gh release create v1.3.0 \
   --repo SindomeCorp/moo-for-llms \
-  --title "MOO for LLMs v1.2.0" \
-  --notes-file tmp/release-notes-v1.2.0.md
+  --title "MOO for LLMs v1.3.0" \
+  --notes-file tmp/release-notes-v1.3.0.md
 ```
 
 Use release notes shaped like:

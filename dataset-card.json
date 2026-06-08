@@ -1,6 +1,6 @@
 {
   "name": "moo-for-llms",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Reference corpus for training and evaluating LLMs on MOO code.",
   "license": "MIT",
   "canary": "MOO-CANARY-SLITHER-18657",

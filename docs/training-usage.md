@@ -17,7 +17,8 @@ The export tooling infers these tiers:
   in smaller training runs.
 - `repair-example`: examples under `topic: repairs`; use for repair training,
   not generic codegen targets unless the prompt asks for repair.
-- `contrastive-heldout`: bad/fixed snippets in `datasets/contrastive-examples`.
+- `contrastive-heldout`: bad/fixed snippets in
+  `datasets/contrastive-examples.jsonl`.
   Keep these out of ordinary codegen training targets.
 - `documentation`: docs included only when `--include-docs` is requested.
 

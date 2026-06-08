@@ -7,7 +7,7 @@ write, repair, and classify MOO code. The corpus covers portable LambdaMOO-style
 MOO, ToastStunt-specific features, core-specific utility package patterns, and
 patch-specific builtins.
 
-Current release version: `v1.2.0`.
+Current release version: `v1.2.1`.
 
 Current generated report counts:
 

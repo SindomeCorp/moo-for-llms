@@ -3,6 +3,8 @@
 MOO for LLMs is a public, MIT-licensed reference corpus for teaching language
 models how to read, write, and repair MOO code.
 
+Current release: `v1.2.1`.
+
 The initial scope is generic MOO programming across LambdaMOO, Stunt, and
 ToastStunt. ToastStunt is a fork of Stunt, which is a fork of LambdaMOO, so
 most examples in this repository are written to be portable unless marked
