@@ -1,4 +1,4 @@
-.PHONY: check reports smoke verify clean-generated
+.PHONY: check reports smoke verify release-artifacts clean-generated
 
 check:
 	python3 scripts/check_all.py
@@ -15,6 +15,10 @@ smoke:
 	test -s tmp/smoke-corpus.jsonl
 
 verify: check reports smoke
+
+release-artifacts: verify
+	python3 scripts/export_training_packages.py --output-dir tmp/training-package
+	python3 scripts/build_release_manifest.py --package-dir tmp/training-package --output tmp/release-manifest.json
 
 clean-generated:
 	rm -rf tmp datasets/splits

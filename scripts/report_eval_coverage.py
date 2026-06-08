@@ -134,7 +134,17 @@ def prompt_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "dialect": row["dialect"],
             "prompt": row["prompt"],
         }
-        for key in ("input", "expected", "expected_properties"):
+        for key in (
+            "input",
+            "expected",
+            "expected_properties",
+            "gold_answer",
+            "checks",
+            "negative_patterns",
+            "forbidden_patterns",
+            "requires_code",
+            "compile_check",
+        ):
             if key in row:
                 exported[key] = row[key]
         output.append(exported)

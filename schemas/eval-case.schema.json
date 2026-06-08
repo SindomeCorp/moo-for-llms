@@ -18,6 +18,34 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "gold_answer": { "type": "string", "minLength": 1 },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "value"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["contains", "not_contains", "regex", "not_regex"]
+          },
+          "value": { "type": "string", "minLength": 1 },
+          "points": { "type": "number", "exclusiveMinimum": 0 },
+          "label": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "negative_patterns": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "forbidden_patterns": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "requires_code": { "type": "boolean" },
+    "compile_check": { "type": "boolean" },
     "source": {
       "type": "string",
       "enum": [

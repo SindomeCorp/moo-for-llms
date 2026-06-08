@@ -205,7 +205,17 @@ def validate_example_index_record(path: Path, line: int, record: dict[str, Any])
 
 def validate_eval_record(path: Path, line: int, record: dict[str, Any]) -> list[Problem]:
     required = {"id", "kind", "dialect", "prompt", "source", "license", "reviewed"}
-    allowed = required | {"input", "expected", "expected_properties"}
+    allowed = required | {
+        "input",
+        "expected",
+        "expected_properties",
+        "gold_answer",
+        "checks",
+        "negative_patterns",
+        "forbidden_patterns",
+        "requires_code",
+        "compile_check",
+    }
     problems = validate_shape(path, line, record, required, allowed)
 
     if record.get("kind") not in ALLOWED_EVAL_KINDS:
@@ -220,10 +230,48 @@ def validate_eval_record(path: Path, line: int, record: dict[str, Any]) -> list[
         value = record["expected_properties"]
         if not isinstance(value, list) or not all(isinstance(item, str) and item for item in value):
             problems.append(Problem(path, line, "`expected_properties` must be a list of non-empty strings"))
+    if "gold_answer" in record:
+        problems.extend(require_string(path, line, record, "gold_answer", min_length=1))
+    if "checks" in record:
+        problems.extend(validate_scoring_checks(path, line, record["checks"]))
+    for field in ("negative_patterns", "forbidden_patterns"):
+        if field in record:
+            value = record[field]
+            if not isinstance(value, list) or not all(isinstance(item, str) and item for item in value):
+                problems.append(Problem(path, line, f"`{field}` must be a list of non-empty strings"))
+    for field in ("requires_code", "compile_check"):
+        if field in record and not isinstance(record[field], bool):
+            problems.append(Problem(path, line, f"`{field}` must be a boolean"))
     if "expected" not in record and "expected_properties" not in record:
         problems.append(Problem(path, line, "eval row must include `expected` or `expected_properties`"))
 
     problems.extend(validate_common_fields(path, line, record))
+    return problems
+
+
+def validate_scoring_checks(path: Path, line: int, checks: Any) -> list[Problem]:
+    problems: list[Problem] = []
+    allowed_types = {"contains", "not_contains", "regex", "not_regex"}
+    if not isinstance(checks, list):
+        return [Problem(path, line, "`checks` must be a list")]
+    for index, check in enumerate(checks, start=1):
+        if not isinstance(check, dict):
+            problems.append(Problem(path, line, f"`checks[{index}]` must be an object"))
+            continue
+        allowed = {"type", "value", "points", "label"}
+        for field in sorted({"type", "value"} - check.keys()):
+            problems.append(Problem(path, line, f"`checks[{index}]` missing required field `{field}`"))
+        for field in sorted(set(check) - allowed):
+            problems.append(Problem(path, line, f"`checks[{index}]` has unknown field `{field}`"))
+        if check.get("type") not in allowed_types:
+            problems.append(Problem(path, line, f"`checks[{index}].type` must be one of {sorted(allowed_types)}"))
+        if not isinstance(check.get("value"), str) or not check.get("value"):
+            problems.append(Problem(path, line, f"`checks[{index}].value` must be a non-empty string"))
+        if "label" in check and (not isinstance(check["label"], str) or not check["label"]):
+            problems.append(Problem(path, line, f"`checks[{index}].label` must be a non-empty string"))
+        points = check.get("points", 1)
+        if not isinstance(points, (int, float)) or points <= 0:
+            problems.append(Problem(path, line, f"`checks[{index}].points` must be a positive number"))
     return problems
 
 

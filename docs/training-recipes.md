@@ -19,6 +19,46 @@ python3 scripts/export_train_eval_split.py \
 Use `train.jsonl` for supervised examples and `heldout.jsonl` for internal
 checks. Keep `evals/**/*.jsonl` separate as benchmark rows.
 
+## Ready-Made Training Packages
+
+Build a release-style package with repo-native source rows plus common chat
+adapter formats:
+
+```bash
+python3 scripts/export_training_packages.py \
+  --output-dir tmp/training-package
+```
+
+The package contains:
+
+- `source-split/train.jsonl` and `source-split/heldout.jsonl`: repo-native rows.
+- `openai-chat/*.jsonl`: `messages` arrays with system, user, and assistant
+  turns plus metadata.
+- `anthropic-messages/*.jsonl`: `system` plus `messages` arrays with metadata.
+- `prompt-completion/*.jsonl`: plain prompt/completion rows for simple
+  adapters.
+- `eval-prompts/*.jsonl`: prompt-only eval rows with expected fields preserved
+  for scoring. Do not train on these as assistant targets.
+- `package-manifest.json`: package options, counts, and file line counts.
+
+The default package is high-signal: generated expansion examples are excluded,
+contrastive rows are held out, and eval rows remain prompt-only. Include broader
+material explicitly:
+
+```bash
+python3 scripts/export_training_packages.py \
+  --output-dir tmp/training-package-broad \
+  --include-repairs \
+  --include-docs \
+  --include-generated-expansion \
+  --max-generated-family-examples 3 \
+  --downweight-generated 0.35
+```
+
+Provider APIs can change their exact upload requirements. Treat these files as
+stable adapter exports that preserve the conversation shape and metadata, then
+run provider-side validation before uploading.
+
 ## Broad Pretraining-Style Exposure
 
 Include repairs and a capped amount of generated expansion breadth. The manifest
@@ -149,3 +189,11 @@ Review:
 - `docs/duplicate-example-report.md`
 - `docs/training-quality-report.md`
 - `docs/eval-coverage-report.md`
+
+To generate release attachment artifacts after the quality gates pass:
+
+```bash
+make release-artifacts
+```
+
+This writes `tmp/training-package/` and `tmp/release-manifest.json`.

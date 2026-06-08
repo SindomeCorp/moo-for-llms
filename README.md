@@ -79,6 +79,13 @@ Regenerate derived reports and prompt exports:
 python3 scripts/refresh_reports.py
 ```
 
+Build release attachment artifacts, including chat-format training packages and
+a structured release manifest:
+
+```bash
+make release-artifacts
+```
+
 ## License
 
 New material in this repository is released under the MIT License. Source
